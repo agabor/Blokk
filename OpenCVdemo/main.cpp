@@ -10,6 +10,9 @@
 #include <math.h>
 #include <string.h>
 
+#include <assert.h>
+
+#define SQR(X) ((X)*(X))
 using namespace cv;
 using namespace std;
 
@@ -27,7 +30,7 @@ void help()
 }
 
 
-int thresh = 50, N = 11;
+int thresh = 50, N = 30;
 const char* wndname = "Square Detection Demo";
 
 // helper function:
@@ -71,7 +74,7 @@ void findSquares( const Mat& image, vector<vector<Point> >& squares )
                 // apply Canny. Take the upper threshold from slider
                 // and set the lower to 0 (which forces edges merging)
                 blur(gray0, gray, Size(10,10));
-                Canny(gray0, gray, 0, thresh, 5);
+                Canny(gray, gray, 0, thresh, 3);
                 // dilate canny output to remove potential
                 // holes between edge segments
                 dilate(gray, gray, Mat(), Point(-1,-1));
@@ -101,7 +104,7 @@ void findSquares( const Mat& image, vector<vector<Point> >& squares )
                 // Note: absolute value of an area is used because
                 // area may be positive or negative - in accordance with the
                 // contour orientation
-                if( //approx.size() == 4 &&
+                if( approx.size() == 4 &&
                     fabs(contourArea(Mat(approx))) > 1000 &&
                     isContourConvex(Mat(approx)) )
                 {
@@ -133,16 +136,52 @@ void drawSquares( Mat& image, const vector<vector<Point> >& squares )
     {
         const Point* p = &squares[i][0];
         int n = (int)squares[i].size();
-        polylines(image, &p, &n, 1, true, Scalar(0,255,0), 3, CV_AA);
+        polylines(image, &p, &n, 1, true, Scalar(0,255,0), 1, CV_AA);
     }
 
     imshow(wndname, image);
 }
 
+void orderRect(vector<Point> &r)
+{
+    assert(r.size() == 4);
+    vector<Point> order_y;
+    for (int i = 0; i < 4; ++i)
+        order_y.push_back(r[i]);
+    for (int s = 0; s < 3; ++s)
+        for (int i = 0; i < 3; ++i)
+            if (order_y[i].y > order_y[i+1].y)
+                std::swap(order_y[i], order_y[i+1]);
+
+    r.clear();
+    //bottom left
+    r.push_back(order_y[0].x < order_y[1].x ? order_y[0] : order_y[1]);
+    //bottom right
+    r.push_back(order_y[0].x > order_y[1].x ? order_y[0] : order_y[1]);
+    //top right
+    r.push_back(order_y[2].x > order_y[3].x ? order_y[2] : order_y[3]);
+    //top left
+    r.push_back(order_y[2].x < order_y[3].x ? order_y[2] : order_y[3]);
+}
+
+bool rectEQ(vector<Point> &a, vector<Point> &b)
+{
+    assert(a.size() == 4);
+    assert(b.size() == 4);
+
+    int count = 0;
+    for (int i = 0; i < 4; ++i)
+        if (SQR(a[i].x - b[i].x) + SQR(a[i].y - b[i].y) > 400)
+        {
+            if(++count == 2)
+                return false;
+        }
+    return true;
+}
 
 int main(int /*argc*/, char** /*argv*/)
 {
-    static const char* names[] = { "D:\\blokk\\blokk\\input\\Scan3.jpg", 0 };
+    static const char* names[] = { "E:\\blokk\\input\\Scan3.JPG", 0 };
     help();
     namedWindow( wndname, 1 );
     vector<vector<Point> > squares;
@@ -156,12 +195,42 @@ int main(int /*argc*/, char** /*argv*/)
             continue;
         }
 
-        Mat resized;
+        cv::Size s;
+        s.width = 300;
+        s.height = 400;
 
-        resize(image, image, Size(), 0.25, 0.25);
+        resize(image, image, s);
 
         findSquares(image, squares);
-        drawSquares(image, squares);
+
+        for(vector<vector<Point> >::iterator i = squares.begin(); i != squares.end(); ++i)
+            orderRect(*i);
+
+        vector<vector<Point> > unique_squares;
+
+        while(!squares.empty())
+        {
+            vector<Point> s = squares.back();
+            squares.pop_back();
+            bool put = true;
+            for (int i = 0; i < unique_squares.size(); ++i)
+                if (rectEQ(unique_squares[i], s))
+                {
+                    if (contourArea(Mat(unique_squares[i])) < contourArea(Mat(s)))
+                    {
+                        unique_squares.erase(unique_squares.begin()+i);
+                        unique_squares.push_back(s);
+                    }
+                    put = false;
+                    break;
+                }
+            if (put)
+                unique_squares.push_back(s);
+        }
+
+        drawSquares(image, unique_squares);
+
+        std::cout << unique_squares.size() << std::endl;
 
         int c = waitKey();
         if( (char)c == 27 )
