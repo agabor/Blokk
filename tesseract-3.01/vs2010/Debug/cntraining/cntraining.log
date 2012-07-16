@@ -1,5 +1,63 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:05:16.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\cntraining.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cntraining\cntraining.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ccutil /I../ccstruct /I../classify /I../cutil /I../training /I../viewer /I../dict /I..\vs2008\include /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D TRAINING /D WIN32 /D _WINDOWS /D __NT__ /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\cntraining\\" /Fd"Debug\cntraining\vc100.pdb" /FR"Debug\cntraining\\" /Gd /TP /analyze- /errorReport:prompt ..\training\cntraining.cpp ..\training\commontraining.cpp
+         commontraining.cpp
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(37): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(320): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(514): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(581): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(815): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(817): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         cntraining.cpp
+     1>d:\blokk\blokk\tesseract-3.01\training\cntraining.cpp(79): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\training\cntraining.cpp(79): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\training\cntraining.cpp(79): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\training\cntraining.cpp(187): warning C4305: '*=' : truncation from 'double' to 'FLOAT32'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\cntraining\cntraining-debug.exe.embed.manifest.res" Debug\cntraining\cntraining-debug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\vs2008\lib ws2_32.lib user32.lib "liblept-static-mtdll-debug.lib" "libpng-static-mtdll.lib" "libjpeg-static-mtdll.lib" "libtiff-static-mtdll.lib" "giflib-static-mtdll.lib" "zlib-static-mtdll.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cntraining\cntraining-debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.lib" /MACHINE:X86 "Debug\cntraining\cntraining-debug.exe.embed.manifest.res"
+         Debug\cntraining\cntraining.obj
+         Debug\cntraining\commontraining.obj
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccstruct.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\classify.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cutil.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\dict.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\image.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_tessopt.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_training.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\viewer.lib"
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\cntraining\cntraining-debug.exe.embed.manifest" /manifest "Debug\cntraining\cntraining-debug.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\cntraining\cntraining-debug.exe.embed.manifest.res" Debug\cntraining\cntraining-debug_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\vs2008\lib ws2_32.lib user32.lib "liblept-static-mtdll-debug.lib" "libpng-static-mtdll.lib" "libjpeg-static-mtdll.lib" "libtiff-static-mtdll.lib" "giflib-static-mtdll.lib" "zlib-static-mtdll.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cntraining\cntraining-debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.lib" /MACHINE:X86 "Debug\cntraining\cntraining-debug.exe.embed.manifest.res"
+         Debug\cntraining\cntraining.obj
+         Debug\cntraining\commontraining.obj
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccstruct.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\classify.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cutil.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\dict.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\image.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_tessopt.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_training.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\viewer.lib"
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         cntraining.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cntraining-debug.bsc" Debug\cntraining\cntraining.sbr Debug\cntraining\commontraining.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\cntraining\cntraining.unsuccessfulbuild".
+         Touching "Debug\cntraining\cntraining.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\cntraining.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:10.59

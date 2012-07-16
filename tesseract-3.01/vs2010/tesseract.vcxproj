@@ -105,7 +105,7 @@
       <AdditionalOptions>/wd4244 /wd4018 /wd4305 /wd4800 /wd4996 %(AdditionalOptions)</AdditionalOptions>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>..\api;..\ccmain;..\ccutil;..\ccstruct;..\classify;..\cutil;..\dict;..\display;..\image;..\textord;..\viewer;..\wordrec;..\pageseg;.;include;include\leptonica;port;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\OpenCV2.4\include;..\api;..\ccmain;..\ccutil;..\ccstruct;..\classify;..\cutil;..\dict;..\display;..\image;..\textord;..\viewer;..\wordrec;..\pageseg;.;include;include\leptonica;port;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;__MSW32__;_CRT_SECURE_NO_WARNINGS;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
@@ -120,11 +120,11 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>ws2_32.lib;user32.lib;zlib-static-mtdll.lib;libpng-static-mtdll.lib;libjpeg-static-mtdll.lib;libtiff-static-mtdll.lib;giflib-static-mtdll.lib;liblept-static-mtdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_core241.lib;opencv_highgui241.lib;opencv_imgproc241.lib;opencv_features2d241.lib;opencv_calib3d241.lib;ws2_32.lib;user32.lib;zlib-static-mtdll.lib;libpng-static-mtdll.lib;libjpeg-static-mtdll.lib;libtiff-static-mtdll.lib;giflib-static-mtdll.lib;liblept-static-mtdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(TargetPath)</OutputFile>
       <Version>3.01</Version>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>..\vs2008\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\OpenCV2.4\lib;..\vs2008\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\bin.rel/tesseract.pdb</ProgramDatabaseFile>
       <SubSystem>Console</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
@@ -212,7 +212,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\api;..\ccmain;..\ccutil;..\ccstruct;..\classify;..\cutil;..\dict;..\display;..\image;..\textord;..\viewer;..\wordrec;..\pageseg;.;include;include\leptonica;port;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\OpenCV2.4\include;..\api;..\ccmain;..\ccutil;..\ccstruct;..\classify;..\cutil;..\dict;..\display;..\image;..\textord;..\viewer;..\wordrec;..\pageseg;.;include;include\leptonica;port;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;__MSW32__;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -228,7 +228,7 @@
       <Culture>0x0409</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>ws2_32.lib;user32.lib;liblept-static-mtdll-debug.lib;libpng-static-mtdll-debug.lib;libjpeg-static-mtdll-debug.lib;giflib-static-mtdll-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_core241.lib;opencv_highgui241.lib;opencv_imgproc241.lib;opencv_features2d241.lib;opencv_calib3d241.lib;ws2_32.lib;user32.lib;liblept-static-mtdll-debug.lib;libpng-static-mtdll-debug.lib;libjpeg-static-mtdll-debug.lib;giflib-static-mtdll-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(TargetPath)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -240,7 +240,7 @@
       <TargetMachine>MachineX86</TargetMachine>
       <Version>3.01</Version>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
-      <AdditionalLibraryDirectories>..\vs2008\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\OpenCV2.4\lib;..\vs2008\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -319,13 +319,12 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug.dll|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release.dll|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\api\tesseractmain.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\api\baseapi.h" />
     <ClInclude Include="..\api\pageiterator.h" />
     <ClInclude Include="..\api\resultiterator.h" />
-    <ClInclude Include="..\api\tesseractmain.h" />
     <ClInclude Include="..\ccutil\strngs.h" />
   </ItemGroup>
   <ItemGroup>

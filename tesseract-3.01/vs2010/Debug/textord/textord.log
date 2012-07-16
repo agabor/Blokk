@@ -1,5 +1,17 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.13. 17:04:12.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\textord.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\textord\textord.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         textord.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\textord.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\textord\textord.unsuccessfulbuild".
+         Touching "Debug\textord\textord.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\textord.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:00.06

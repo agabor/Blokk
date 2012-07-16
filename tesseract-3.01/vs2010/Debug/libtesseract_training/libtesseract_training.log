@@ -1,5 +1,24 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:05:05.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\libtesseract_training.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libtesseract_training\libtesseract_training.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\dict /I..\viewer /I..\ccstruct /I..\image /I..\classify /I..\vs2008\include\leptonica /I..\vs2008\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D LEPTONLIB_IMPORTS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libtesseract_training\\" /Fd"Debug\libtesseract_training\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\training\commontraining.cpp
+         commontraining.cpp
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(37): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(320): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(514): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(581): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(815): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\training\commontraining.cpp(817): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_training.lib" /NOLOGO Debug\libtesseract_training\commontraining.obj
+         libtesseract_training.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_training.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libtesseract_training\libtesseract_training.unsuccessfulbuild".
+         Touching "Debug\libtesseract_training\libtesseract_training.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\libtesseract_training.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00
+Time Elapsed 00:00:01.52

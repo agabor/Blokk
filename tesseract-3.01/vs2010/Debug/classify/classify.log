@@ -1,5 +1,319 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:04:48.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\classify.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\classify\classify.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\classify\\" /Fd"Debug\classify\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\classify\adaptive.cpp ..\classify\adaptmatch.cpp ..\classify\blobclass.cpp ..\classify\chartoname.cpp ..\classify\classify.cpp ..\classify\cluster.cpp ..\classify\clusttool.cpp ..\classify\cutoffs.cpp ..\classify\extract.cpp ..\classify\featdefs.cpp ..\classify\flexfx.cpp ..\classify\float2int.cpp ..\classify\fpoint.cpp ..\classify\fxdefs.cpp ..\classify\intfx.cpp ..\classify\intmatcher.cpp ..\classify\intproto.cpp ..\classify\kdtree.cpp ..\classify\mf.cpp ..\classify\mfdefs.cpp ..\classify\mfoutline.cpp ..\classify\mfx.cpp ..\classify\normfeat.cpp ..\classify\normmatch.cpp ..\classify\ocrfeatures.cpp ..\classify\outfeat.cpp ..\classify\picofeat.cpp ..\classify\protos.cpp ..\classify\speckle.cpp ..\classify\xform2d.cpp
+         xform2d.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\xform2d.cpp(110): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\xform2d.cpp(111): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         speckle.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\speckle.cpp(73): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\speckle.cpp(73): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\speckle.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         protos.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\protos.cpp(201): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\protos.cpp(203): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         picofeat.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\picofeat.cpp(132): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\picofeat.cpp(133): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         outfeat.cpp
+         ocrfeatures.cpp
+         normmatch.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\normmatch.cpp(104): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normmatch.cpp(105): warning C4244: 'return' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normmatch.cpp(126): warning C4244: '*=' : conversion from 'const double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normmatch.cpp(143): warning C4244: 'return' : conversion from 'double' to 'FLOAT32', possible loss of data
+         normfeat.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\normfeat.cpp(33): warning C4244: 'return' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normfeat.cpp(73): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normfeat.cpp(75): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normfeat.cpp(76): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\normfeat.cpp(77): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         mfx.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfx.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfx.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfx.cpp(140): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         mfoutline.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(335): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(336): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(376): warning C4244: '*=' : conversion from 'FLOAT64' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(377): warning C4244: '*=' : conversion from 'FLOAT64' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(379): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(381): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(384): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(385): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(386): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(392): warning C4244: 'argument' : conversion from 'FLOAT64' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(392): warning C4244: 'argument' : conversion from 'FLOAT64' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(434): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(435): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(436): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\mfoutline.cpp(437): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         mfdefs.cpp
+         mf.cpp
+         kdtree.cpp
+         intproto.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(400): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(400): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(402): warning C4305: '*=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(405): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(410): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(414): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(419): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(565): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1187): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1191): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1193): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1252): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1253): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1254): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1255): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1256): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1257): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1258): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1259): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1262): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1262): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1262): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1262): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1612): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1613): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1614): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1618): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1619): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1620): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1624): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1625): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1626): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1630): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1631): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1632): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1754): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1784): warning C4305: '*=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1791): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1792): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1795): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1796): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1836): warning C4305: '*=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1843): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1844): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1847): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1848): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1914): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1917): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1918): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1919): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1920): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1922): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1922): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1923): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1923): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1927): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1927): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1928): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1928): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1989): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1990): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1993): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1994): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1996): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1996): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1997): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(1997): warning C4244: 'argument' : conversion from 'FLOAT32' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(2022): warning C4244: '=' : conversion from 'int' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intproto.cpp(2027): warning C4244: '=' : conversion from 'int' to 'FLOAT32', possible loss of data
+         intmatcher.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(126): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(356): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(808): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(810): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(1038): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(1083): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intmatcher.cpp(1191): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         intfx.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\intfx.cpp(440): warning C4244: '=' : conversion from 'inT16' to 'uinT8', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\intfx.cpp(441): warning C4244: '=' : conversion from 'inT16' to 'uinT8', possible loss of data
+         fxdefs.cpp
+         fpoint.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\fpoint.cpp(34): warning C4244: 'return' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\fpoint.cpp(55): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\fpoint.cpp(57): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         float2int.cpp
+         flexfx.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\flexfx.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         featdefs.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(53): warning C4305: 'initializing' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(120): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(184): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(221): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\featdefs.cpp(255): warning C4018: '<' : signed/unsigned mismatch
+         extract.cpp
+         cutoffs.cpp
+         clusttool.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(145): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(148): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(149): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(164): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(166): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(169): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(207): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(209): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(214): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(219): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\clusttool.cpp(496): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         cluster.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1074): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1226): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1265): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1314): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1367): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1369): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1392): warning C4305: '=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1397): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1399): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1484): warning C4305: '=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1519): warning C4305: '=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1522): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1525): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1526): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1561): warning C4305: '=' : truncation from 'double' to 'FLOAT32'
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1564): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1565): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(1568): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(2136): warning C4244: '=' : conversion from 'const FLOAT64' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(2178): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(2385): warning C4244: '*=' : conversion from 'FLOAT64' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\cluster.cpp(2729): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         classify.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(63): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(65): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(67): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(69): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(71): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(73): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(75): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(77): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(79): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(81): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(83): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(86): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(88): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(90): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(92): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(93): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(94): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(96): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(98): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(100): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(102): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(104): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(106): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(108): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(110): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(112): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(115): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(118): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(122): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(124): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(126): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(127): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(129): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(131): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(134): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(137): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(140): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(143): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(146): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(149): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(151): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(153): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(155): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(157): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(159): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(162): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\classify\classify.cpp(164): warning C4355: 'this' : used in base member initializer list
+         chartoname.cpp
+         blobclass.cpp
+         adaptmatch.cpp
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(655): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(745): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(842): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(917): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(986): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(996): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1166): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1214): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1243): warning C4244: '+=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1426): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1428): warning C4244: '/=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1525): warning C4244: '*=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1526): warning C4244: '*=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1688): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1688): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1688): warning C4244: 'argument' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1697): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1706): warning C4244: '*=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1708): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1859): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1875): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(1954): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2042): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2063): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2220): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2245): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2246): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2404): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2502): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2504): warning C4244: 'argument' : conversion from 'FLOAT32' to 'const int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2506): warning C4244: 'argument' : conversion from 'FLOAT32' to 'const int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2568): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2595): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2625): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\classify\adaptmatch.cpp(2640): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+         adaptive.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\classify.lib" /NOLOGO Debug\classify\adaptive.obj
+         Debug\classify\adaptmatch.obj
+         Debug\classify\blobclass.obj
+         Debug\classify\chartoname.obj
+         Debug\classify\classify.obj
+         Debug\classify\cluster.obj
+         Debug\classify\clusttool.obj
+         Debug\classify\cutoffs.obj
+         Debug\classify\extract.obj
+         Debug\classify\featdefs.obj
+         Debug\classify\flexfx.obj
+         Debug\classify\float2int.obj
+         Debug\classify\fpoint.obj
+         Debug\classify\fxdefs.obj
+         Debug\classify\intfx.obj
+         Debug\classify\intmatcher.obj
+         Debug\classify\intproto.obj
+         Debug\classify\kdtree.obj
+         Debug\classify\mf.obj
+         Debug\classify\mfdefs.obj
+         Debug\classify\mfoutline.obj
+         Debug\classify\mfx.obj
+         Debug\classify\normfeat.obj
+         Debug\classify\normmatch.obj
+         Debug\classify\ocrfeatures.obj
+         Debug\classify\outfeat.obj
+         Debug\classify\picofeat.obj
+         Debug\classify\protos.obj
+         Debug\classify\speckle.obj
+         Debug\classify\xform2d.obj
+         classify.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\classify.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\classify\classify.unsuccessfulbuild".
+         Touching "Debug\classify\classify.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\classify.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00
+Time Elapsed 00:00:27.13

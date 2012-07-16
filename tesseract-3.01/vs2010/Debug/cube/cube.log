@@ -1,5 +1,236 @@
-﻿Build started 2012.07.05. 18:01:21.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\cube.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cube\cube.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccmain /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\cube\\" /Fd"Debug\cube\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\cube\altlist.cpp ..\cube\beam_search.cpp ..\cube\bmp_8.cpp ..\cube\cached_file.cpp ..\cube\char_altlist.cpp ..\cube\char_bigrams.cpp ..\cube\char_samp.cpp ..\cube\char_samp_enum.cpp ..\cube\char_samp_set.cpp ..\cube\char_set.cpp ..\cube\classifier_factory.cpp ..\cube\con_comp.cpp ..\cube\conv_net_classifier.cpp ..\cube\cube_line_object.cpp ..\cube\cube_line_segmenter.cpp ..\cube\cube_object.cpp ..\cube\cube_search_object.cpp ..\cube\cube_tuning_params.cpp ..\cube\cube_utils.cpp ..\cube\feature_bmp.cpp ..\cube\feature_chebyshev.cpp ..\cube\feature_hybrid.cpp ..\cube\hybrid_neural_net_classifier.cpp ..\cube\search_column.cpp ..\cube\search_node.cpp ..\cube\tess_lang_mod_edge.cpp ..\cube\tess_lang_model.cpp ..\cube\word_altlist.cpp ..\cube\word_list_lang_model.cpp ..\cube\word_size_model.cpp ..\cube\word_unigrams.cpp
+         word_unigrams.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\cube\word_unigrams.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\word_unigrams.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+         word_size_model.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\cube\word_size_model.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\word_size_model.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\word_size_model.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+         word_list_lang_model.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\cube\word_list_lang_model.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+         word_altlist.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         tess_lang_model.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\tess_lang_model.cpp(440): warning C4018: '<' : signed/unsigned mismatch
+         tess_lang_mod_edge.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         search_node.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         search_column.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         hybrid_neural_net_classifier.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\cube\hybrid_neural_net_classifier.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\hybrid_neural_net_classifier.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\hybrid_neural_net_classifier.cpp(157): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\hybrid_neural_net_classifier.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\hybrid_neural_net_classifier.cpp(356): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         feature_hybrid.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         feature_chebyshev.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(62): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(71): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(78): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(112): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(130): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\feature_chebyshev.cpp(131): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         feature_bmp.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         cube_utils.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(235): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(235): warning C4018: '>' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(378): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(379): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(383): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(385): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_utils.cpp(386): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         cube_tuning_params.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_tuning_params.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_tuning_params.cpp(161): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_tuning_params.cpp(163): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         cube_search_object.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_search_object.cpp(411): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         cube_object.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\cube\cube_object.cpp(273): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         cube_line_segmenter.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         cube_line_object.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         conv_net_classifier.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\cube\conv_net_classifier.cpp(90): warning C4018: '<' : signed/unsigned mismatch
+         con_comp.cpp
+         Generating Code...
+         Compiling...
+         classifier_factory.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         char_set.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         char_samp_set.cpp
+         char_samp_enum.cpp
+         char_samp.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         char_bigrams.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\cube\char_bigrams.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+         char_altlist.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         cached_file.cpp
+         bmp_8.cpp
+     1>d:\blokk\blokk\tesseract-3.01\cube\bmp_8.cpp(793): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\bmp_8.cpp(870): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cube\bmp_8.cpp(989): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         beam_search.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         altlist.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cube.lib" /NOLOGO Debug\cube\altlist.obj
+         Debug\cube\beam_search.obj
+         Debug\cube\bmp_8.obj
+         Debug\cube\cached_file.obj
+         Debug\cube\char_altlist.obj
+         Debug\cube\char_bigrams.obj
+         Debug\cube\char_samp.obj
+         Debug\cube\char_samp_enum.obj
+         Debug\cube\char_samp_set.obj
+         Debug\cube\char_set.obj
+         Debug\cube\classifier_factory.obj
+         Debug\cube\con_comp.obj
+         Debug\cube\conv_net_classifier.obj
+         Debug\cube\cube_line_object.obj
+         Debug\cube\cube_line_segmenter.obj
+         Debug\cube\cube_object.obj
+         Debug\cube\cube_search_object.obj
+         Debug\cube\cube_tuning_params.obj
+         Debug\cube\cube_utils.obj
+         Debug\cube\feature_bmp.obj
+         Debug\cube\feature_chebyshev.obj
+         Debug\cube\feature_hybrid.obj
+         Debug\cube\hybrid_neural_net_classifier.obj
+         Debug\cube\search_column.obj
+         Debug\cube\search_node.obj
+         Debug\cube\tess_lang_mod_edge.obj
+         Debug\cube\tess_lang_model.obj
+         Debug\cube\word_altlist.obj
+         Debug\cube\word_list_lang_model.obj
+         Debug\cube\word_size_model.obj
+         Debug\cube\word_unigrams.obj
+         cube.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cube.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\cube\cube.unsuccessfulbuild".
+         Touching "Debug\cube\cube.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\cube.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:47.14

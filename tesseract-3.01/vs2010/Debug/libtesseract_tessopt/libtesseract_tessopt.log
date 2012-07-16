@@ -1,5 +1,18 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:05:03.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\libtesseract_tessopt.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libtesseract_tessopt\libtesseract_tessopt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\viewer /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D LEPTONLIB_IMPORTS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libtesseract_tessopt\\" /Fd"Debug\libtesseract_tessopt\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\training\tessopt.cpp
+         tessopt.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_tessopt.lib" /NOLOGO Debug\libtesseract_tessopt\tessopt.obj
+         libtesseract_tessopt.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract_tessopt.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libtesseract_tessopt\libtesseract_tessopt.unsuccessfulbuild".
+         Touching "Debug\libtesseract_tessopt\libtesseract_tessopt.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\libtesseract_tessopt.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00
+Time Elapsed 00:00:00.55

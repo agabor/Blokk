@@ -1,5 +1,482 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.13. 17:04:12.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\libtesseract.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libtesseract\libtesseract.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccmain /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libtesseract\\" /Fd"Debug\libtesseract\vc100.pdb" /FR"Debug\libtesseract\\" /Gd /TP /analyze- /errorReport:prompt ..\api\baseapi.cpp
+         baseapi.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(143): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(911): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(927): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(1485): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(1655): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(1677): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(1684): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\blokk\blokk\tesseract-3.01\api\baseapi.cpp(1686): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract-debug.lib" ws2_32.lib "libpng-static-mtdll-debug.lib" "libjpeg-static-mtdll-debug.lib" "libtiff-static-mtdll-debug.lib" "giflib-static-mtdll-debug.lib" /LIBPATH:..\vs2008\lib /NOLOGO Debug\libtesseract\baseapi.obj
+         Debug\libtesseract\pageiterator.obj
+         Debug\libtesseract\resultiterator.obj
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccmain.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccstruct.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\classify.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cube.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cutil.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\dict.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\image.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\neural_networks.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\textord.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\viewer.lib"
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\wordrec.lib"
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order7 already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order6 already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order5 already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order4 already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order3 already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jpeg_natural_order2 already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jdiv_round_up already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jround_up already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jcopy_sample_rows already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jcopy_block_row already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4006: _jzero_far already defined in libjpeg-static-mtdll-debug.lib(jutils.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jutils.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jquant2.obj) : warning LNK4006: _jinit_2pass_quantizer already defined in libjpeg-static-mtdll-debug.lib(jquant2.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jquant2.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jquant1.obj) : warning LNK4006: _jinit_1pass_quantizer already defined in libjpeg-static-mtdll-debug.lib(jquant1.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jquant1.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_get_small already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_free_small already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_get_large already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_free_large already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_mem_available already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_open_backing_store already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_mem_init already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4006: _jpeg_mem_term already defined in libjpeg-static-mtdll-debug.lib(jmemnobs.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemnobs.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jmemmgr.obj) : warning LNK4006: _jinit_memory_mgr already defined in libjpeg-static-mtdll-debug.lib(jmemmgr.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jmemmgr.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_islow already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_7x7 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_6x6 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_5x5 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_4x4 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_3x3 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_2x2 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_1x1 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_9x9 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_10x10 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_11x11 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_12x12 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_13x13 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_14x14 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_15x15 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_16x16 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_16x8 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_14x7 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_12x6 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_10x5 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_8x4 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_6x3 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_4x2 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_2x1 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_8x16 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_7x14 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_6x12 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_5x10 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_4x8 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_3x6 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_2x4 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4006: _jpeg_idct_1x2 already defined in libjpeg-static-mtdll-debug.lib(jidctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctint.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jidctfst.obj) : warning LNK4006: _jpeg_idct_ifast already defined in libjpeg-static-mtdll-debug.lib(jidctfst.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctfst.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jidctflt.obj) : warning LNK4006: _jpeg_idct_float already defined in libjpeg-static-mtdll-debug.lib(jidctflt.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jidctflt.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_islow already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_7x7 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_6x6 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_5x5 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_4x4 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_3x3 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_2x2 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_1x1 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_9x9 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_10x10 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_11x11 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_12x12 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_13x13 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_14x14 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_15x15 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_16x16 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_16x8 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_14x7 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_12x6 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_10x5 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_8x4 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_6x3 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_4x2 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_2x1 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_8x16 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_7x14 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_6x12 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_5x10 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_4x8 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_3x6 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_2x4 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4006: _jpeg_fdct_1x2 already defined in libjpeg-static-mtdll-debug.lib(jfdctint.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctint.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jfdctfst.obj) : warning LNK4006: _jpeg_fdct_ifast already defined in libjpeg-static-mtdll-debug.lib(jfdctfst.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctfst.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jfdctflt.obj) : warning LNK4006: _jpeg_fdct_float already defined in libjpeg-static-mtdll-debug.lib(jfdctflt.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jfdctflt.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jerror.obj) : warning LNK4006: _jpeg_std_message_table already defined in libjpeg-static-mtdll-debug.lib(jerror.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jerror.obj) : warning LNK4006: _jpeg_std_error already defined in libjpeg-static-mtdll-debug.lib(jerror.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jerror.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdtrans.obj) : warning LNK4006: _jpeg_read_coefficients already defined in libjpeg-static-mtdll-debug.lib(jdtrans.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdtrans.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdsample.obj) : warning LNK4006: _jinit_upsampler already defined in libjpeg-static-mtdll-debug.lib(jdsample.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdsample.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdpostct.obj) : warning LNK4006: _jinit_d_post_controller already defined in libjpeg-static-mtdll-debug.lib(jdpostct.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdpostct.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdmerge.obj) : warning LNK4006: _jinit_merged_upsampler already defined in libjpeg-static-mtdll-debug.lib(jdmerge.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmerge.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdmaster.obj) : warning LNK4006: _jpeg_calc_output_dimensions already defined in libjpeg-static-mtdll-debug.lib(jdmaster.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmaster.obj) : warning LNK4006: _jpeg_new_colormap already defined in libjpeg-static-mtdll-debug.lib(jdmaster.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmaster.obj) : warning LNK4006: _jinit_master_decompress already defined in libjpeg-static-mtdll-debug.lib(jdmaster.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmaster.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdmarker.obj) : warning LNK4006: _jpeg_resync_to_restart already defined in libjpeg-static-mtdll-debug.lib(jdmarker.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmarker.obj) : warning LNK4006: _jinit_marker_reader already defined in libjpeg-static-mtdll-debug.lib(jdmarker.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmarker.obj) : warning LNK4006: _jpeg_save_markers already defined in libjpeg-static-mtdll-debug.lib(jdmarker.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmarker.obj) : warning LNK4006: _jpeg_set_marker_processor already defined in libjpeg-static-mtdll-debug.lib(jdmarker.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmarker.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdmainct.obj) : warning LNK4006: _jinit_d_main_controller already defined in libjpeg-static-mtdll-debug.lib(jdmainct.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdmainct.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdinput.obj) : warning LNK4006: _jpeg_core_output_dimensions already defined in libjpeg-static-mtdll-debug.lib(jdinput.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdinput.obj) : warning LNK4006: _jinit_input_controller already defined in libjpeg-static-mtdll-debug.lib(jdinput.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdinput.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdhuff.obj) : warning LNK4006: _jinit_huff_decoder already defined in libjpeg-static-mtdll-debug.lib(jdhuff.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdhuff.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jddctmgr.obj) : warning LNK4006: _jinit_inverse_dct already defined in libjpeg-static-mtdll-debug.lib(jddctmgr.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jddctmgr.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdcolor.obj) : warning LNK4006: _jinit_color_deconverter already defined in libjpeg-static-mtdll-debug.lib(jdcolor.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdcolor.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdcoefct.obj) : warning LNK4006: _jinit_d_coef_controller already defined in libjpeg-static-mtdll-debug.lib(jdcoefct.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdcoefct.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdatasrc.obj) : warning LNK4006: _jpeg_stdio_src already defined in libjpeg-static-mtdll-debug.lib(jdatasrc.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdatasrc.obj) : warning LNK4006: _jpeg_mem_src already defined in libjpeg-static-mtdll-debug.lib(jdatasrc.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdatasrc.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdatadst.obj) : warning LNK4006: _jpeg_stdio_dest already defined in libjpeg-static-mtdll-debug.lib(jdatadst.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdatadst.obj) : warning LNK4006: _jpeg_mem_dest already defined in libjpeg-static-mtdll-debug.lib(jdatadst.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdatadst.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdarith.obj) : warning LNK4006: _jinit_arith_decoder already defined in libjpeg-static-mtdll-debug.lib(jdarith.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdarith.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdapistd.obj) : warning LNK4006: _jpeg_start_decompress already defined in libjpeg-static-mtdll-debug.lib(jdapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapistd.obj) : warning LNK4006: _jpeg_read_scanlines already defined in libjpeg-static-mtdll-debug.lib(jdapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapistd.obj) : warning LNK4006: _jpeg_read_raw_data already defined in libjpeg-static-mtdll-debug.lib(jdapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapistd.obj) : warning LNK4006: _jpeg_start_output already defined in libjpeg-static-mtdll-debug.lib(jdapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapistd.obj) : warning LNK4006: _jpeg_finish_output already defined in libjpeg-static-mtdll-debug.lib(jdapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapistd.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_CreateDecompress already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_destroy_decompress already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_abort_decompress already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_read_header already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_consume_input already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_input_complete already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_has_multiple_scans already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4006: _jpeg_finish_decompress already defined in libjpeg-static-mtdll-debug.lib(jdapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jdapimin.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jctrans.obj) : warning LNK4006: _jpeg_write_coefficients already defined in libjpeg-static-mtdll-debug.lib(jctrans.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jctrans.obj) : warning LNK4006: _jpeg_copy_critical_parameters already defined in libjpeg-static-mtdll-debug.lib(jctrans.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jctrans.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcsample.obj) : warning LNK4006: _jinit_downsampler already defined in libjpeg-static-mtdll-debug.lib(jcsample.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcsample.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcprepct.obj) : warning LNK4006: _jinit_c_prep_controller already defined in libjpeg-static-mtdll-debug.lib(jcprepct.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcprepct.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_add_quant_table already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_default_qtables already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_set_linear_quality already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_quality_scaling already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_set_quality already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_set_defaults already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_default_colorspace already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_set_colorspace already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4006: _jpeg_simple_progression already defined in libjpeg-static-mtdll-debug.lib(jcparam.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcparam.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcomapi.obj) : warning LNK4006: _jpeg_abort already defined in libjpeg-static-mtdll-debug.lib(jcomapi.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcomapi.obj) : warning LNK4006: _jpeg_destroy already defined in libjpeg-static-mtdll-debug.lib(jcomapi.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcomapi.obj) : warning LNK4006: _jpeg_alloc_quant_table already defined in libjpeg-static-mtdll-debug.lib(jcomapi.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcomapi.obj) : warning LNK4006: _jpeg_alloc_huff_table already defined in libjpeg-static-mtdll-debug.lib(jcomapi.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcomapi.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcmaster.obj) : warning LNK4006: _jpeg_calc_jpeg_dimensions already defined in libjpeg-static-mtdll-debug.lib(jcmaster.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcmaster.obj) : warning LNK4006: _jinit_c_master_control already defined in libjpeg-static-mtdll-debug.lib(jcmaster.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcmaster.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcmarker.obj) : warning LNK4006: _jinit_marker_writer already defined in libjpeg-static-mtdll-debug.lib(jcmarker.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcmarker.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcmainct.obj) : warning LNK4006: _jinit_c_main_controller already defined in libjpeg-static-mtdll-debug.lib(jcmainct.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcmainct.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcinit.obj) : warning LNK4006: _jinit_compress_master already defined in libjpeg-static-mtdll-debug.lib(jcinit.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcinit.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jchuff.obj) : warning LNK4006: _jinit_huff_encoder already defined in libjpeg-static-mtdll-debug.lib(jchuff.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jchuff.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcdctmgr.obj) : warning LNK4006: _jinit_forward_dct already defined in libjpeg-static-mtdll-debug.lib(jcdctmgr.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcdctmgr.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jccolor.obj) : warning LNK4006: _jinit_color_converter already defined in libjpeg-static-mtdll-debug.lib(jccolor.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jccolor.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jccoefct.obj) : warning LNK4006: _jinit_c_coef_controller already defined in libjpeg-static-mtdll-debug.lib(jccoefct.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jccoefct.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcarith.obj) : warning LNK4006: _jinit_arith_encoder already defined in libjpeg-static-mtdll-debug.lib(jcarith.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcarith.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcapistd.obj) : warning LNK4006: _jpeg_start_compress already defined in libjpeg-static-mtdll-debug.lib(jcapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapistd.obj) : warning LNK4006: _jpeg_write_scanlines already defined in libjpeg-static-mtdll-debug.lib(jcapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapistd.obj) : warning LNK4006: _jpeg_write_raw_data already defined in libjpeg-static-mtdll-debug.lib(jcapistd.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapistd.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_CreateCompress already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_destroy_compress already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_abort_compress already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_suppress_tables already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_finish_compress already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_write_marker already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_write_m_header already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_write_m_byte already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4006: _jpeg_write_tables already defined in libjpeg-static-mtdll-debug.lib(jcapimin.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jcapimin.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>libtiff-static-mtdll-debug.lib(jaricom.obj) : warning LNK4006: _jpeg_aritab already defined in libjpeg-static-mtdll-debug.lib(jaricom.obj); second definition ignored
+     1>libtiff-static-mtdll-debug.lib(jaricom.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccstruct.lib(quadratc.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(ambigs.obj) : warning LNK4006: "public: __thiscall tesseract::AmbigSpec::AmbigSpec(void)" (??0AmbigSpec@tesseract@@QAE@XZ) already defined in ccmain.lib(ambigs.obj); second definition ignored
+     1>ccutil.lib(ambigs.obj) : warning LNK4006: "void __cdecl tesseract::AmbigSpec_zapper(class ELIST_LINK *)" (?AmbigSpec_zapper@tesseract@@YAXPAVELIST_LINK@@@Z) already defined in ccmain.lib(ambigs.obj); second definition ignored
+     1>ccutil.lib(ambigs.obj) : warning LNK4006: "public: void __thiscall tesseract::AmbigSpec_LIST::deep_copy(class tesseract::AmbigSpec_LIST const *,class tesseract::AmbigSpec * (__cdecl*)(class tesseract::AmbigSpec const *))" (?deep_copy@AmbigSpec_LIST@tesseract@@QAEXPBV12@P6APAVAmbigSpec@2@PBV32@@Z@Z) already defined in ccmain.lib(ambigs.obj); second definition ignored
+     1>ccutil.lib(ambigs.obj) : warning LNK4006: "public: void __thiscall tesseract::UnicharAmbigs::LoadUnicharAmbigs(struct _iobuf *,__int64,int,bool,class UNICHARSET *)" (?LoadUnicharAmbigs@UnicharAmbigs@tesseract@@QAEXPAU_iobuf@@_JH_NPAVUNICHARSET@@@Z) already defined in ccmain.lib(ambigs.obj); second definition ignored
+     1>ccutil.lib(ambigs.obj) : warning LNK4006: "private: bool __thiscall tesseract::UnicharAmbigs::ParseAmbiguityLine(int,int,int,class UNICHARSET const &,char *,int *,int *,int *,char *,int *)" (?ParseAmbiguityLine@UnicharAmbigs@tesseract@@AAE_NHHHABVUNICHARSET@@PADPAH2212@Z) already defined in ccmain.lib(ambigs.obj); second definition ignored
+     1>ccutil.lib(ambigs.obj) : warning LNK4006: "private: void __thiscall tesseract::UnicharAmbigs::InsertIntoTable(class GenericVector<class tesseract::AmbigSpec_LIST *> &,int,int *,int,char const *,int,class tesseract::AmbigSpec *,class UNICHARSET *)" (?InsertIntoTable@UnicharAmbigs@tesseract@@AAEXAAV?$GenericVector@PAVAmbigSpec_LIST@tesseract@@@@HPAHHPBDHPAVAmbigSpec@2@PAVUNICHARSET@@@Z) already defined in ccmain.lib(ambigs.obj); second definition ignored
+     1>ccutil.lib(ambigs.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(basedir.obj) : warning LNK4006: "char __cdecl getpath(char const *,class STRING const &,class STRING &)" (?getpath@@YADPBDABVSTRING@@AAV1@@Z) already defined in ccmain.lib(basedir.obj); second definition ignored
+     1>ccutil.lib(basedir.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(bits16.obj) : warning LNK4006: "public: __thiscall BITS16::BITS16(unsigned short)" (??0BITS16@@QAE@G@Z) already defined in ccmain.lib(bits16.obj); second definition ignored
+     1>ccutil.lib(bits16.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(boxread.obj) : warning LNK4006: "struct _iobuf * __cdecl OpenBoxFile(class STRING const &)" (?OpenBoxFile@@YAPAU_iobuf@@ABVSTRING@@@Z) already defined in ccmain.lib(boxread.obj); second definition ignored
+     1>ccutil.lib(boxread.obj) : warning LNK4006: "bool __cdecl read_next_box(int *,struct _iobuf *,char *,int *,int *,int *,int *)" (?read_next_box@@YA_NPAHPAU_iobuf@@PAD0000@Z) already defined in ccmain.lib(boxread.obj); second definition ignored
+     1>ccutil.lib(boxread.obj) : warning LNK4006: "bool __cdecl read_next_box(int,int *,struct _iobuf *,char *,int *,int *,int *,int *)" (?read_next_box@@YA_NHPAHPAU_iobuf@@PAD0000@Z) already defined in ccmain.lib(boxread.obj); second definition ignored
+     1>ccutil.lib(boxread.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(ccutil.obj) : warning LNK4006: "public: __thiscall tesseract::CCUtil::CCUtil(void)" (??0CCUtil@tesseract@@QAE@XZ) already defined in ccmain.lib(ccutil.obj); second definition ignored
+     1>ccutil.lib(ccutil.obj) : warning LNK4006: "public: virtual __thiscall tesseract::CCUtil::~CCUtil(void)" (??1CCUtil@tesseract@@UAE@XZ) already defined in ccmain.lib(ccutil.obj); second definition ignored
+     1>ccutil.lib(ccutil.obj) : warning LNK4006: "public: __thiscall tesseract::CCUtilMutex::CCUtilMutex(void)" (??0CCUtilMutex@tesseract@@QAE@XZ) already defined in ccmain.lib(ccutil.obj); second definition ignored
+     1>ccutil.lib(ccutil.obj) : warning LNK4006: "public: void __thiscall tesseract::CCUtilMutex::Lock(void)" (?Lock@CCUtilMutex@tesseract@@QAEXXZ) already defined in ccmain.lib(ccutil.obj); second definition ignored
+     1>ccutil.lib(ccutil.obj) : warning LNK4006: "public: void __thiscall tesseract::CCUtilMutex::Unlock(void)" (?Unlock@CCUtilMutex@tesseract@@QAEXXZ) already defined in ccmain.lib(ccutil.obj); second definition ignored
+     1>ccutil.lib(ccutil.obj) : warning LNK4006: "class tesseract::CCUtilMutex tesseract::tprintfMutex" (?tprintfMutex@tesseract@@3VCCUtilMutex@1@A) already defined in ccmain.lib(ccutil.obj); second definition ignored
+     1>ccutil.lib(ccutil.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST::internal_deep_clear(void (__cdecl*)(void *))" (?internal_deep_clear@CLIST@@QAEXP6AXPAX@Z@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST::shallow_clear(void)" (?shallow_clear@CLIST@@QAEXXZ) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST::internal_deep_copy(void * (__cdecl*)(void *),class CLIST const *)" (?internal_deep_copy@CLIST@@QAEXP6APAXPAX@ZPBV1@@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST::assign_to_sublist(class CLIST_ITERATOR *,class CLIST_ITERATOR *)" (?assign_to_sublist@CLIST@@QAEXPAVCLIST_ITERATOR@@0@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: int __thiscall CLIST::length(void)const " (?length@CLIST@@QBEHXZ) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST::sort(int (__cdecl*)(void const *,void const *))" (?sort@CLIST@@QAEXP6AHPBX0@Z@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: bool __thiscall CLIST::add_sorted(int (__cdecl*)(void const *,void const *),bool,void *)" (?add_sorted@CLIST@@QAE_NP6AHPBX0@Z_NPAX@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST::set_subtract(int (__cdecl*)(void const *,void const *),bool,class CLIST *,class CLIST *)" (?set_subtract@CLIST@@QAEXP6AHPBX0@Z_NPAV1@3@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void * __thiscall CLIST_ITERATOR::forward(void)" (?forward@CLIST_ITERATOR@@QAEPAXXZ) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void * __thiscall CLIST_ITERATOR::data_relative(char)" (?data_relative@CLIST_ITERATOR@@QAEPAXD@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void * __thiscall CLIST_ITERATOR::move_to_last(void)" (?move_to_last@CLIST_ITERATOR@@QAEPAXXZ) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "public: void __thiscall CLIST_ITERATOR::exchange(class CLIST_ITERATOR *)" (?exchange@CLIST_ITERATOR@@QAEXPAV1@@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4006: "private: class CLIST_LINK * __thiscall CLIST_ITERATOR::extract_sublist(class CLIST_ITERATOR *)" (?extract_sublist@CLIST_ITERATOR@@AAEPAVCLIST_LINK@@PAV1@@Z) already defined in ccmain.lib(clst.obj); second definition ignored
+     1>ccutil.lib(clst.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: void __thiscall ELIST::internal_clear(void (__cdecl*)(class ELIST_LINK *))" (?internal_clear@ELIST@@QAEXP6AXPAVELIST_LINK@@@Z@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: void __thiscall ELIST::assign_to_sublist(class ELIST_ITERATOR *,class ELIST_ITERATOR *)" (?assign_to_sublist@ELIST@@QAEXPAVELIST_ITERATOR@@0@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: int __thiscall ELIST::length(void)const " (?length@ELIST@@QBEHXZ) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: void __thiscall ELIST::sort(int (__cdecl*)(void const *,void const *))" (?sort@ELIST@@QAEXP6AHPBX0@Z@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: class ELIST_LINK * __thiscall ELIST::add_sorted_and_find(int (__cdecl*)(void const *,void const *),bool,class ELIST_LINK *)" (?add_sorted_and_find@ELIST@@QAEPAVELIST_LINK@@P6AHPBX0@Z_NPAV2@@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: class ELIST_LINK * __thiscall ELIST_ITERATOR::forward(void)" (?forward@ELIST_ITERATOR@@QAEPAVELIST_LINK@@XZ) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: class ELIST_LINK * __thiscall ELIST_ITERATOR::data_relative(char)" (?data_relative@ELIST_ITERATOR@@QAEPAVELIST_LINK@@D@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: class ELIST_LINK * __thiscall ELIST_ITERATOR::move_to_last(void)" (?move_to_last@ELIST_ITERATOR@@QAEPAVELIST_LINK@@XZ) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "public: void __thiscall ELIST_ITERATOR::exchange(class ELIST_ITERATOR *)" (?exchange@ELIST_ITERATOR@@QAEXPAV1@@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4006: "private: class ELIST_LINK * __thiscall ELIST_ITERATOR::extract_sublist(class ELIST_ITERATOR *)" (?extract_sublist@ELIST_ITERATOR@@AAEPAVELIST_LINK@@PAV1@@Z) already defined in ccmain.lib(elst.obj); second definition ignored
+     1>ccutil.lib(elst.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: void __thiscall ELIST2::internal_clear(void (__cdecl*)(class ELIST2_LINK *))" (?internal_clear@ELIST2@@QAEXP6AXPAVELIST2_LINK@@@Z@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: void __thiscall ELIST2::assign_to_sublist(class ELIST2_ITERATOR *,class ELIST2_ITERATOR *)" (?assign_to_sublist@ELIST2@@QAEXPAVELIST2_ITERATOR@@0@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: int __thiscall ELIST2::length(void)const " (?length@ELIST2@@QBEHXZ) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: void __thiscall ELIST2::sort(int (__cdecl*)(void const *,void const *))" (?sort@ELIST2@@QAEXP6AHPBX0@Z@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: void __thiscall ELIST2::add_sorted(int (__cdecl*)(void const *,void const *),class ELIST2_LINK *)" (?add_sorted@ELIST2@@QAEXP6AHPBX0@ZPAVELIST2_LINK@@@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: class ELIST2_LINK * __thiscall ELIST2_ITERATOR::forward(void)" (?forward@ELIST2_ITERATOR@@QAEPAVELIST2_LINK@@XZ) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: class ELIST2_LINK * __thiscall ELIST2_ITERATOR::backward(void)" (?backward@ELIST2_ITERATOR@@QAEPAVELIST2_LINK@@XZ) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: class ELIST2_LINK * __thiscall ELIST2_ITERATOR::data_relative(char)" (?data_relative@ELIST2_ITERATOR@@QAEPAVELIST2_LINK@@D@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "public: void __thiscall ELIST2_ITERATOR::exchange(class ELIST2_ITERATOR *)" (?exchange@ELIST2_ITERATOR@@QAEXPAV1@@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4006: "private: class ELIST2_LINK * __thiscall ELIST2_ITERATOR::extract_sublist(class ELIST2_ITERATOR *)" (?extract_sublist@ELIST2_ITERATOR@@AAEPAVELIST2_LINK@@PAV1@@Z) already defined in ccmain.lib(elst2.obj); second definition ignored
+     1>ccutil.lib(elst2.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(errcode.obj) : warning LNK4006: "public: void __cdecl ERRCODE::error(char const *,char,char const *,...)const " (?error@ERRCODE@@QBAXPBDD0ZZ) already defined in ccmain.lib(errcode.obj); second definition ignored
+     1>ccutil.lib(errcode.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(globaloc.obj) : warning LNK4006: "void __cdecl signal_exit(int)" (?signal_exit@@YAXH@Z) already defined in ccmain.lib(globaloc.obj); second definition ignored
+     1>ccutil.lib(globaloc.obj) : warning LNK4006: _err_exit already defined in ccmain.lib(globaloc.obj); second definition ignored
+     1>ccutil.lib(globaloc.obj) : warning LNK4006: _signal_termination_handler already defined in ccmain.lib(globaloc.obj); second definition ignored
+     1>ccutil.lib(globaloc.obj) : warning LNK4006: "void __cdecl set_global_loc_code(int)" (?set_global_loc_code@@YAXH@Z) already defined in ccmain.lib(globaloc.obj); second definition ignored
+     1>ccutil.lib(globaloc.obj) : warning LNK4006: "void __cdecl set_global_subloc_code(int)" (?set_global_subloc_code@@YAXH@Z) already defined in ccmain.lib(globaloc.obj); second definition ignored
+     1>ccutil.lib(globaloc.obj) : warning LNK4006: "void __cdecl set_global_subsubloc_code(int)" (?set_global_subsubloc_code@@YAXH@Z) already defined in ccmain.lib(globaloc.obj); second definition ignored
+     1>ccutil.lib(globaloc.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(hashfn.obj) : warning LNK4006: "int __cdecl hash(int,void *,int)" (?hash@@YAHHPAXH@Z) already defined in ccmain.lib(hashfn.obj); second definition ignored
+     1>ccutil.lib(hashfn.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(mainblk.obj) : warning LNK4006: "public: void __thiscall tesseract::CCUtil::main_setup(char const *,char const *)" (?main_setup@CCUtil@tesseract@@QAEXPBD0@Z) already defined in ccmain.lib(mainblk.obj); second definition ignored
+     1>ccutil.lib(mainblk.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MEM_ALLOCATOR::init(void * (__cdecl*)(int),void (__cdecl*)(void *),int,int,int)" (?init@MEM_ALLOCATOR@@QAEXP6APAXH@ZP6AXPAX@ZHHH@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: unsigned short __thiscall MEM_ALLOCATOR::hash_caller(void *)" (?hash_caller@MEM_ALLOCATOR@@QAEGPAX@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MALLOC_CALL::count_freeer(void *)" (?count_freeer@MALLOC_CALL@@QAEXPAX@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "private: void __thiscall MEM_ALLOCATOR::init_callers(void)" (?init_callers@MEM_ALLOCATOR@@AAEXXZ) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MALLOC_CALL::init_freeers(void)" (?init_freeers@MALLOC_CALL@@QAEXXZ) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MEM_ALLOCATOR::reduce_counts(void)" (?reduce_counts@MEM_ALLOCATOR@@QAEXXZ) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MEM_ALLOCATOR::display_counts(void)" (?display_counts@MEM_ALLOCATOR@@QAEXXZ) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MEM_ALLOCATOR::check(char const *,char)" (?check@MEM_ALLOCATOR@@QAEXPBDD@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void * __thiscall MEM_ALLOCATOR::alloc_p(int,void *)" (?alloc_p@MEM_ALLOCATOR@@QAEPAXHPAX@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void * __thiscall MEM_ALLOCATOR::alloc(int,void *)" (?alloc@MEM_ALLOCATOR@@QAEPAXHPAX@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "private: void __thiscall MEM_ALLOCATOR::set_owner(class MEMUNION *,void *)" (?set_owner@MEM_ALLOCATOR@@AAEXPAVMEMUNION@@PAX@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: void __thiscall MEM_ALLOCATOR::dealloc(void *,void *)" (?dealloc@MEM_ALLOCATOR@@QAEXPAX0@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: class MEMBLOCK * __thiscall MEM_ALLOCATOR::new_block(int)" (?new_block@MEM_ALLOCATOR@@QAEPAVMEMBLOCK@@H@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "public: class MEMUNION * __thiscall MEMBLOCK::find_chunk(int)" (?find_chunk@MEMBLOCK@@QAEPAVMEMUNION@@H@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "void * __cdecl trace_caller(int)" (?trace_caller@@YAPAXH@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "int __cdecl identify_struct_owner(int,char const *)" (?identify_struct_owner@@YAHHPBD@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "void __cdecl check_struct(char,int)" (?check_struct@@YAXDH@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "void __cdecl check_structs(char)" (?check_structs@@YAXD@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "void * __cdecl new_struct_block(void)" (?new_struct_block@@YAPAXXZ) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "void __cdecl old_struct_block(class MEMUNION *)" (?old_struct_block@@YAXPAVMEMUNION@@@Z) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "int (* owner_counts)[24]" (?owner_counts@@3PAY0BI@HA) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class MEM_ALLOCATOR big_mem" (?big_mem@@3VMEM_ALLOCATOR@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class MEM_ALLOCATOR main_mem" (?main_mem@@3VMEM_ALLOCATOR@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "short * name_counts" (?name_counts@@3PAFA) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "int * structs_in_use" (?structs_in_use@@3PAHA) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class MEMUNION * * struct_blocks" (?struct_blocks@@3PAPAVMEMUNION@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "int * blocks_in_use" (?blocks_in_use@@3PAHA) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "int free_struct_blocks" (?free_struct_blocks@@3HA) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class MEMUNION * * free_structs" (?free_structs@@3PAPAVMEMUNION@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "char const * (* owner_names)[24]" (?owner_names@@3PAY0BI@PBDA) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class MEMUNION * free_block" (?free_block@@3PAVMEMUNION@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class tesseract::IntParam mem_checkfreq" (?mem_checkfreq@@3VIntParam@tesseract@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class tesseract::IntParam mem_mallocdepth" (?mem_mallocdepth@@3VIntParam@tesseract@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class tesseract::IntParam mem_countbuckets" (?mem_countbuckets@@3VIntParam@tesseract@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class tesseract::IntParam mem_freebits" (?mem_freebits@@3VIntParam@tesseract@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class tesseract::IntParam mem_mallocbits" (?mem_mallocbits@@3VIntParam@tesseract@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4006: "class tesseract::IntParam mem_freedepth" (?mem_freedepth@@3VIntParam@tesseract@@A) already defined in ccmain.lib(memblk.obj); second definition ignored
+     1>ccutil.lib(memblk.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void __cdecl check_mem(char const *,char)" (?check_mem@@YAXPBDD@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "char * __cdecl alloc_string(int)" (?alloc_string@@YAPADH@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void __cdecl free_string(char *)" (?free_string@@YAXPAD@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void * __cdecl alloc_struct(int,char const *)" (?alloc_struct@@YAPAXHPBD@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void __cdecl free_struct(void *,int,char const *)" (?free_struct@@YAXPAXHPBD@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void * __cdecl alloc_mem_p(int)" (?alloc_mem_p@@YAPAXH@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void * __cdecl alloc_mem(int)" (?alloc_mem@@YAPAXH@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void * __cdecl alloc_big_mem(int)" (?alloc_big_mem@@YAPAXH@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void * __cdecl alloc_big_zeros(int)" (?alloc_big_zeros@@YAPAXH@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void __cdecl free_mem(void *)" (?free_mem@@YAXPAX@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4006: "void __cdecl free_big_mem(void *)" (?free_big_mem@@YAXPAX@Z) already defined in ccmain.lib(memry.obj); second definition ignored
+     1>ccutil.lib(memry.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(params.obj) : warning LNK4006: "struct tesseract::ParamsVectors * __cdecl GlobalParams(void)" (?GlobalParams@@YAPAUParamsVectors@tesseract@@XZ) already defined in ccmain.lib(params.obj); second definition ignored
+     1>ccutil.lib(params.obj) : warning LNK4006: "public: static bool __cdecl tesseract::ParamUtils::ReadParamsFile(char const *,bool,struct tesseract::ParamsVectors *)" (?ReadParamsFile@ParamUtils@tesseract@@SA_NPBD_NPAUParamsVectors@2@@Z) already defined in ccmain.lib(params.obj); second definition ignored
+     1>ccutil.lib(params.obj) : warning LNK4006: "public: static bool __cdecl tesseract::ParamUtils::ReadParamsFromFp(struct _iobuf *,__int64,bool,struct tesseract::ParamsVectors *)" (?ReadParamsFromFp@ParamUtils@tesseract@@SA_NPAU_iobuf@@_J_NPAUParamsVectors@2@@Z) already defined in ccmain.lib(params.obj); second definition ignored
+     1>ccutil.lib(params.obj) : warning LNK4006: "public: static bool __cdecl tesseract::ParamUtils::SetParam(char const *,char const *,bool,struct tesseract::ParamsVectors *)" (?SetParam@ParamUtils@tesseract@@SA_NPBD0_NPAUParamsVectors@2@@Z) already defined in ccmain.lib(params.obj); second definition ignored
+     1>ccutil.lib(params.obj) : warning LNK4006: "public: static bool __cdecl tesseract::ParamUtils::GetParamAsString(char const *,struct tesseract::ParamsVectors const *,class STRING *)" (?GetParamAsString@ParamUtils@tesseract@@SA_NPBDPBUParamsVectors@2@PAVSTRING@@@Z) already defined in ccmain.lib(params.obj); second definition ignored
+     1>ccutil.lib(params.obj) : warning LNK4006: "public: static void __cdecl tesseract::ParamUtils::PrintParams(struct _iobuf *,struct tesseract::ParamsVectors const *)" (?PrintParams@ParamUtils@tesseract@@SAXPAU_iobuf@@PBUParamsVectors@2@@Z) already defined in ccmain.lib(params.obj); second definition ignored
+     1>ccutil.lib(params.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(serialis.obj) : warning LNK4006: "unsigned __int64 __cdecl reverse64(unsigned __int64)" (?reverse64@@YA_K_K@Z) already defined in ccmain.lib(serialis.obj); second definition ignored
+     1>ccutil.lib(serialis.obj) : warning LNK4006: "unsigned int __cdecl reverse32(unsigned int)" (?reverse32@@YAII@Z) already defined in ccmain.lib(serialis.obj); second definition ignored
+     1>ccutil.lib(serialis.obj) : warning LNK4006: "unsigned short __cdecl reverse16(unsigned short)" (?reverse16@@YAGG@Z) already defined in ccmain.lib(serialis.obj); second definition ignored
+     1>ccutil.lib(serialis.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "private: char * __thiscall STRING::AllocData(int,int)" (?AllocData@STRING@@AAEPADHH@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "private: void __thiscall STRING::DiscardData(void)" (?DiscardData@STRING@@AAEXXZ) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "private: char * __thiscall STRING::ensure_cstr(int)" (?ensure_cstr@STRING@@AAEPADH@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "private: void __thiscall STRING::FixHeader(void)const " (?FixHeader@STRING@@ABEXXZ) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: __thiscall STRING::STRING(void)" (??0STRING@@QAE@XZ) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: __thiscall STRING::STRING(class STRING const &)" (??0STRING@@QAE@ABV0@@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: __thiscall STRING::STRING(char const *)" (??0STRING@@QAE@PBD@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: __thiscall STRING::~STRING(void)" (??1STRING@@QAE@XZ) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: unsigned char __thiscall STRING::contains(char)const " (?contains@STRING@@QBEED@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: int __thiscall STRING::length(void)const " (?length@STRING@@QBEHXZ) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: char const * __thiscall STRING::string(void)const " (?string@STRING@@QBEPBDXZ) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: char & __thiscall STRING::operator[](int)const " (??ASTRING@@QBEAADH@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: unsigned char __thiscall STRING::operator==(class STRING const &)const " (??8STRING@@QBEEABV0@@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: unsigned char __thiscall STRING::operator!=(class STRING const &)const " (??9STRING@@QBEEABV0@@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: unsigned char __thiscall STRING::operator!=(char const *)const " (??9STRING@@QBEEPBD@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING & __thiscall STRING::operator=(class STRING const &)" (??4STRING@@QAEAAV0@ABV0@@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING & __thiscall STRING::operator+=(class STRING const &)" (??YSTRING@@QAEAAV0@ABV0@@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: void __thiscall STRING::add_str_int(char const *,int)" (?add_str_int@STRING@@QAEXPBDH@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING & __thiscall STRING::operator=(char const *)" (??4STRING@@QAEAAV0@PBD@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING __thiscall STRING::operator+(class STRING const &)const " (??HSTRING@@QBE?AV0@ABV0@@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING __thiscall STRING::operator+(char)const " (??HSTRING@@QBE?AV0@D@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING & __thiscall STRING::operator+=(char const *)" (??YSTRING@@QAEAAV0@PBD@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4006: "public: class STRING & __thiscall STRING::operator+=(char)" (??YSTRING@@QAEAAV0@D@Z) already defined in ccmain.lib(strngs.obj); second definition ignored
+     1>ccutil.lib(strngs.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: bool __thiscall tesseract::TessdataManager::Init(char const *,int)" (?Init@TessdataManager@tesseract@@QAE_NPBDH@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: static void __cdecl tesseract::TessdataManager::CopyFileA(struct _iobuf *,struct _iobuf *,bool,__int64)" (?CopyFileA@TessdataManager@tesseract@@SAXPAU_iobuf@@0_N_J@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: static void __cdecl tesseract::TessdataManager::WriteMetadata(__int64 *,struct _iobuf *)" (?WriteMetadata@TessdataManager@tesseract@@SAXPA_JPAU_iobuf@@@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: static bool __cdecl tesseract::TessdataManager::CombineDataFiles(char const *,char const *)" (?CombineDataFiles@TessdataManager@tesseract@@SA_NPBD0@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: bool __thiscall tesseract::TessdataManager::OverwriteComponents(char const *,char * *,int)" (?OverwriteComponents@TessdataManager@tesseract@@QAE_NPBDPAPADH@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: static bool __cdecl tesseract::TessdataManager::TessdataTypeFromFileSuffix(char const *,enum tesseract::TessdataType *,bool *)" (?TessdataTypeFromFileSuffix@TessdataManager@tesseract@@SA_NPBDPAW4TessdataType@2@PA_N@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: static bool __cdecl tesseract::TessdataManager::TessdataTypeFromFileName(char const *,enum tesseract::TessdataType *,bool *)" (?TessdataTypeFromFileName@TessdataManager@tesseract@@SA_NPBDPAW4TessdataType@2@PA_N@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4006: "public: bool __thiscall tesseract::TessdataManager::ExtractToFile(char const *)" (?ExtractToFile@TessdataManager@tesseract@@QAE_NPBD@Z) already defined in ccmain.lib(tessdatamanager.obj); second definition ignored
+     1>ccutil.lib(tessdatamanager.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(tprintf.obj) : warning LNK4006: "void __cdecl tprintf(char const *,...)" (?tprintf@@YAXPBDZZ) already defined in ccmain.lib(tprintf.obj); second definition ignored
+     1>ccutil.lib(tprintf.obj) : warning LNK4006: "unsigned char __cdecl pause_continue(char const *,...)" (?pause_continue@@YAEPBDZZ) already defined in ccmain.lib(tprintf.obj); second definition ignored
+     1>ccutil.lib(tprintf.obj) : warning LNK4006: "class tesseract::StringParam debug_file" (?debug_file@@3VStringParam@tesseract@@A) already defined in ccmain.lib(tprintf.obj); second definition ignored
+     1>ccutil.lib(tprintf.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(unichar.obj) : warning LNK4006: "public: __thiscall UNICHAR::UNICHAR(char const *,int)" (??0UNICHAR@@QAE@PBDH@Z) already defined in ccmain.lib(unichar.obj); second definition ignored
+     1>ccutil.lib(unichar.obj) : warning LNK4006: "public: __thiscall UNICHAR::UNICHAR(int)" (??0UNICHAR@@QAE@H@Z) already defined in ccmain.lib(unichar.obj); second definition ignored
+     1>ccutil.lib(unichar.obj) : warning LNK4006: "public: int __thiscall UNICHAR::first_uni(void)const " (?first_uni@UNICHAR@@QBEHXZ) already defined in ccmain.lib(unichar.obj); second definition ignored
+     1>ccutil.lib(unichar.obj) : warning LNK4006: "public: char * __thiscall UNICHAR::utf8_str(void)const " (?utf8_str@UNICHAR@@QBEPADXZ) already defined in ccmain.lib(unichar.obj); second definition ignored
+     1>ccutil.lib(unichar.obj) : warning LNK4006: "public: static int __cdecl UNICHAR::utf8_step(char const *)" (?utf8_step@UNICHAR@@SAHPBD@Z) already defined in ccmain.lib(unichar.obj); second definition ignored
+     1>ccutil.lib(unichar.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: __thiscall UNICHARMAP::UNICHARMAP(void)" (??0UNICHARMAP@@QAE@XZ) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: __thiscall UNICHARMAP::~UNICHARMAP(void)" (??1UNICHARMAP@@QAE@XZ) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: int __thiscall UNICHARMAP::unichar_to_id(char const * const)const " (?unichar_to_id@UNICHARMAP@@QBEHQBD@Z) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: int __thiscall UNICHARMAP::unichar_to_id(char const * const,int)const " (?unichar_to_id@UNICHARMAP@@QBEHQBDH@Z) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: void __thiscall UNICHARMAP::insert(char const * const,int)" (?insert@UNICHARMAP@@QAEXQBDH@Z) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: bool __thiscall UNICHARMAP::contains(char const * const)const " (?contains@UNICHARMAP@@QBE_NQBD@Z) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: bool __thiscall UNICHARMAP::contains(char const * const,int)const " (?contains@UNICHARMAP@@QBE_NQBDH@Z) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: int __thiscall UNICHARMAP::minmatch(char const * const)const " (?minmatch@UNICHARMAP@@QBEHQBD@Z) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: void __thiscall UNICHARMAP::clear(void)" (?clear@UNICHARMAP@@QAEXXZ) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: __thiscall UNICHARMAP::UNICHARMAP_NODE::UNICHARMAP_NODE(void)" (??0UNICHARMAP_NODE@UNICHARMAP@@QAE@XZ) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4006: "public: __thiscall UNICHARMAP::UNICHARMAP_NODE::~UNICHARMAP_NODE(void)" (??1UNICHARMAP_NODE@UNICHARMAP@@QAE@XZ) already defined in ccmain.lib(unicharmap.obj); second definition ignored
+     1>ccutil.lib(unicharmap.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: __thiscall UNICHARSET::UNICHAR_PROPERTIES::UNICHAR_PROPERTIES(void)" (??0UNICHAR_PROPERTIES@UNICHARSET@@QAE@XZ) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: void __thiscall UNICHARSET::UNICHAR_PROPERTIES::Init(void)" (?Init@UNICHAR_PROPERTIES@UNICHARSET@@QAEXXZ) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: __thiscall UNICHARSET::UNICHARSET(void)" (??0UNICHARSET@@QAE@XZ) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: __thiscall UNICHARSET::~UNICHARSET(void)" (??1UNICHARSET@@QAE@XZ) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: void __thiscall UNICHARSET::reserve(int)" (?reserve@UNICHARSET@@QAEXH@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: int const __thiscall UNICHARSET::unichar_to_id(char const * const)const " (?unichar_to_id@UNICHARSET@@QBE?BHQBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: int const __thiscall UNICHARSET::unichar_to_id(char const * const,int)const " (?unichar_to_id@UNICHARSET@@QBE?BHQBDH@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: int __thiscall UNICHARSET::step(char const *)const " (?step@UNICHARSET@@QBEHPBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: char const * __thiscall UNICHARSET::id_to_unichar(int)const " (?id_to_unichar@UNICHARSET@@QBEQBDH@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: static class STRING __cdecl UNICHARSET::debug_utf8_str(char const *)" (?debug_utf8_str@UNICHARSET@@SA?AVSTRING@@PBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: class STRING __thiscall UNICHARSET::debug_str(int)const " (?debug_str@UNICHARSET@@QBE?AVSTRING@@H@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: unsigned int __thiscall UNICHARSET::get_properties(int)const " (?get_properties@UNICHARSET@@QBEIH@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: char __thiscall UNICHARSET::get_chartype(int)const " (?get_chartype@UNICHARSET@@QBEDH@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: void __thiscall UNICHARSET::unichar_insert(char const * const)" (?unichar_insert@UNICHARSET@@QAEXQBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: bool __thiscall UNICHARSET::contains_unichar(char const * const)const " (?contains_unichar@UNICHARSET@@QBE_NQBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: bool __thiscall UNICHARSET::contains_unichar(char const * const,int)const " (?contains_unichar@UNICHARSET@@QBE_NQBDH@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: bool __thiscall UNICHARSET::eq(int,char const * const)const " (?eq@UNICHARSET@@QBE_NHQBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: bool __thiscall UNICHARSET::save_to_file(struct _iobuf *)const " (?save_to_file@UNICHARSET@@QBE_NPAU_iobuf@@@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: bool __thiscall UNICHARSET::load_from_file(struct _iobuf *,bool)" (?load_from_file@UNICHARSET@@QAE_NPAU_iobuf@@_N@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: void __thiscall UNICHARSET::post_load_setup(void)" (?post_load_setup@UNICHARSET@@QAEXXZ) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: bool __thiscall UNICHARSET::any_right_to_left(void)const " (?any_right_to_left@UNICHARSET@@QBE_NXZ) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: void __thiscall UNICHARSET::set_black_and_whitelist(char const *,char const *)" (?set_black_and_whitelist@UNICHARSET@@QAEXPBD0@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: int __thiscall UNICHARSET::add_script(char const *)" (?add_script@UNICHARSET@@QAEHPBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: static class CHAR_FRAGMENT * __cdecl CHAR_FRAGMENT::parse_from_string(char const *)" (?parse_from_string@CHAR_FRAGMENT@@SAPAV1@PBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4006: "public: int __thiscall UNICHARSET::get_script_id_from_name(char const *)const " (?get_script_id_from_name@UNICHARSET@@QBEHPBD@Z) already defined in ccmain.lib(unicharset.obj); second definition ignored
+     1>ccutil.lib(unicharset.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libtesseract.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract-debug.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\libtesseract-debug.bsc" Debug\libtesseract\baseapi.sbr Debug\libtesseract\pageiterator.sbr Debug\libtesseract\resultiterator.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\libtesseract\libtesseract.unsuccessfulbuild".
+         Touching "Debug\libtesseract\libtesseract.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\libtesseract.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:08.06

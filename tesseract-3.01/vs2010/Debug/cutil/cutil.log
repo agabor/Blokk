@@ -1,5 +1,45 @@
-﻿Build started 2012.07.05. 18:01:21.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\cutil.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cutil\cutil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\cutil\\" /Fd"Debug\cutil\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\cutil\bitvec.cpp ..\cutil\callcpp.cpp ..\cutil\cutil.cpp ..\cutil\cutil_class.cpp ..\cutil\danerror.cpp ..\cutil\efio.cpp ..\cutil\emalloc.cpp ..\cutil\freelist.cpp ..\cutil\listio.cpp ..\cutil\oldheap.cpp ..\cutil\oldlist.cpp ..\cutil\structures.cpp ..\cutil\tessarray.cpp
+         tessarray.cpp
+         structures.cpp
+         oldlist.cpp
+         oldheap.cpp
+         listio.cpp
+         freelist.cpp
+         emalloc.cpp
+         efio.cpp
+         danerror.cpp
+         cutil_class.cpp
+         cutil.cpp
+         callcpp.cpp
+     1>d:\blokk\blokk\tesseract-3.01\cutil\callcpp.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\cutil\callcpp.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         bitvec.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cutil.lib" /NOLOGO Debug\cutil\bitvec.obj
+         Debug\cutil\callcpp.obj
+         Debug\cutil\cutil.obj
+         Debug\cutil\cutil_class.obj
+         Debug\cutil\danerror.obj
+         Debug\cutil\efio.obj
+         Debug\cutil\emalloc.obj
+         Debug\cutil\freelist.obj
+         Debug\cutil\listio.obj
+         Debug\cutil\oldheap.obj
+         Debug\cutil\oldlist.obj
+         Debug\cutil\structures.obj
+         Debug\cutil\tessarray.obj
+         cutil.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\cutil.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\cutil\cutil.unsuccessfulbuild".
+         Touching "Debug\cutil\cutil.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\cutil.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:10.29

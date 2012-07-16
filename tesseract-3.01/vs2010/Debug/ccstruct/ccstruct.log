@@ -1,5 +1,154 @@
-﻿Build started 2012.07.05. 18:01:21.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\ccstruct.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ccstruct\ccstruct.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\ccstruct\\" /Fd"Debug\ccstruct\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccstruct\blobbox.cpp ..\ccstruct\blobs.cpp ..\ccstruct\blread.cpp ..\ccstruct\boxword.cpp ..\ccstruct\ccstruct.cpp ..\ccstruct\coutln.cpp ..\ccstruct\detlinefit.cpp ..\ccstruct\dppoint.cpp ..\ccstruct\genblob.cpp ..\ccstruct\linlsq.cpp ..\ccstruct\matrix.cpp ..\ccstruct\mod128.cpp ..\ccstruct\normalis.cpp ..\ccstruct\ocrblock.cpp ..\ccstruct\ocrrow.cpp ..\ccstruct\otsuthr.cpp ..\ccstruct\pageres.cpp ..\ccstruct\pdblock.cpp ..\ccstruct\points.cpp ..\ccstruct\polyaprx.cpp ..\ccstruct\polyblk.cpp ..\ccstruct\publictypes.cpp ..\ccstruct\quadlsq.cpp ..\ccstruct\quadratc.cpp ..\ccstruct\quspline.cpp ..\ccstruct\ratngs.cpp ..\ccstruct\rect.cpp ..\ccstruct\rejctmap.cpp ..\ccstruct\seam.cpp ..\ccstruct\split.cpp ..\ccstruct\statistc.cpp ..\ccstruct\stepblob.cpp ..\ccstruct\vecfuncs.cpp ..\ccstruct\werd.cpp
+         werd.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\werd.cpp(473): warning C4804: '>' : unsafe use of type 'bool' in operation
+         vecfuncs.cpp
+         stepblob.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         statistc.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(534): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(534): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(537): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\statistc.cpp(537): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         split.cpp
+         seam.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\seam.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\seam.cpp(476): warning C4018: '<' : signed/unsigned mismatch
+         rejctmap.cpp
+         rect.cpp
+         ratngs.cpp
+         quspline.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(54): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(54): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(124): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(223): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(328): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(329): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(342): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(344): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(380): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(380): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(380): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(382): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(382): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\quspline.cpp(382): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         quadratc.cpp
+         quadlsq.cpp
+         publictypes.cpp
+         polyblk.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\polyblk.cpp(243): warning C4996: 'ltoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _ltoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(868) : see declaration of 'ltoa'
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\polyblk.cpp(278): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         polyaprx.cpp
+         points.cpp
+         pdblock.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\pdblock.cpp(205): warning C4996: 'ultoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _ultoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'ultoa'
+         pageres.cpp
+         otsuthr.cpp
+         ocrrow.cpp
+         Generating Code...
+         Compiling...
+         ocrblock.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\ocrblock.cpp(51): warning C4244: '=' : conversion from 'inT16' to 'inT8', possible loss of data
+         normalis.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\normalis.cpp(54): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\normalis.cpp(303): warning C4244: 'return' : conversion from 'const inT32' to 'float', possible loss of data
+         mod128.cpp
+         matrix.cpp
+         linlsq.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\linlsq.cpp(170): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\linlsq.cpp(170): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\linlsq.cpp(190): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\linlsq.cpp(191): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\linlsq.cpp(193): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\linlsq.cpp(194): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         genblob.cpp
+         dppoint.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\dppoint.cpp(88): warning C4244: '=' : conversion from 'inT64' to 'inT32', possible loss of data
+         detlinefit.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\detlinefit.cpp(196): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         coutln.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         ccstruct.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\ccstruct.cpp(32): warning C4355: 'this' : used in base member initializer list
+         boxword.cpp
+         blread.cpp
+         blobs.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobs.cpp(355): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+         blobbox.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobbox.cpp(212): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobbox.cpp(227): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobbox.cpp(262): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobbox.cpp(264): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobbox.cpp(295): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccstruct\blobbox.cpp(296): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccstruct.lib" /NOLOGO Debug\ccstruct\blobbox.obj
+         Debug\ccstruct\blobs.obj
+         Debug\ccstruct\blread.obj
+         Debug\ccstruct\boxword.obj
+         Debug\ccstruct\ccstruct.obj
+         Debug\ccstruct\coutln.obj
+         Debug\ccstruct\detlinefit.obj
+         Debug\ccstruct\dppoint.obj
+         Debug\ccstruct\genblob.obj
+         Debug\ccstruct\linlsq.obj
+         Debug\ccstruct\matrix.obj
+         Debug\ccstruct\mod128.obj
+         Debug\ccstruct\normalis.obj
+         Debug\ccstruct\ocrblock.obj
+         Debug\ccstruct\ocrrow.obj
+         Debug\ccstruct\otsuthr.obj
+         Debug\ccstruct\pageres.obj
+         Debug\ccstruct\pdblock.obj
+         Debug\ccstruct\points.obj
+         Debug\ccstruct\polyaprx.obj
+         Debug\ccstruct\polyblk.obj
+         Debug\ccstruct\publictypes.obj
+         Debug\ccstruct\quadlsq.obj
+         Debug\ccstruct\quadratc.obj
+         Debug\ccstruct\quspline.obj
+         Debug\ccstruct\ratngs.obj
+         Debug\ccstruct\rect.obj
+         Debug\ccstruct\rejctmap.obj
+         Debug\ccstruct\seam.obj
+         Debug\ccstruct\split.obj
+         Debug\ccstruct\statistc.obj
+         Debug\ccstruct\stepblob.obj
+         Debug\ccstruct\vecfuncs.obj
+         Debug\ccstruct\werd.obj
+     1>quadratc.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         ccstruct.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccstruct.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ccstruct\ccstruct.unsuccessfulbuild".
+         Touching "Debug\ccstruct\ccstruct.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\ccstruct.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:30.40

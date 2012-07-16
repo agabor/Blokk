@@ -1,5 +1,45 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:04:54.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\dict.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\dict\dict.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\dict\\" /Fd"Debug\dict\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\dict\context.cpp ..\dict\dawg.cpp ..\dict\dict.cpp ..\dict\hyphen.cpp ..\dict\permdawg.cpp ..\dict\permute.cpp ..\dict\states.cpp ..\dict\stopper.cpp ..\dict\trie.cpp
+         trie.cpp
+     1>d:\blokk\blokk\tesseract-3.01\dict\trie.cpp(43): warning C4566: character represented by universal-character-name '\u2000' cannot be represented in the current code page (1250)
+     1>d:\blokk\blokk\tesseract-3.01\dict\trie.cpp(44): warning C4566: character represented by universal-character-name '\u2001' cannot be represented in the current code page (1250)
+     1>d:\blokk\blokk\tesseract-3.01\dict\trie.cpp(45): warning C4566: character represented by universal-character-name '\u2002' cannot be represented in the current code page (1250)
+     1>d:\blokk\blokk\tesseract-3.01\dict\trie.cpp(46): warning C4566: character represented by universal-character-name '\u2003' cannot be represented in the current code page (1250)
+     1>d:\blokk\blokk\tesseract-3.01\dict\trie.cpp(47): warning C4566: character represented by universal-character-name '\u2004' cannot be represented in the current code page (1250)
+     1>d:\blokk\blokk\tesseract-3.01\dict\trie.cpp(48): warning C4566: character represented by universal-character-name '\u2005' cannot be represented in the current code page (1250)
+         stopper.cpp
+         states.cpp
+         permute.cpp
+     1>d:\blokk\blokk\tesseract-3.01\dict\permute.cpp(265): warning C4018: '<' : signed/unsigned mismatch
+         permdawg.cpp
+     1>d:\blokk\blokk\tesseract-3.01\dict\permdawg.cpp(112): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\dict\permdawg.cpp(206): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\dict\permdawg.cpp(274): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         hyphen.cpp
+         dict.cpp
+         dawg.cpp
+         context.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\dict.lib" /NOLOGO Debug\dict\context.obj
+         Debug\dict\dawg.obj
+         Debug\dict\dict.obj
+         Debug\dict\hyphen.obj
+         Debug\dict\permdawg.obj
+         Debug\dict\permute.obj
+         Debug\dict\states.obj
+         Debug\dict\stopper.obj
+         Debug\dict\trie.obj
+         dict.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\dict.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\dict\dict.unsuccessfulbuild".
+         Touching "Debug\dict\dict.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\dict.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00
+Time Elapsed 00:00:09.36

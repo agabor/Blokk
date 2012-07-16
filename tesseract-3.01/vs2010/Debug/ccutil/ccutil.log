@@ -1,5 +1,69 @@
-﻿Build started 2012.07.05. 18:01:21.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\ccutil.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ccutil\ccutil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\ccutil\\" /Fd"Debug\ccutil\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccutil\ambigs.cpp ..\ccutil\basedir.cpp ..\ccutil\bits16.cpp ..\ccutil\boxread.cpp ..\ccutil\ccutil.cpp ..\ccutil\clst.cpp ..\ccutil\elst.cpp ..\ccutil\elst2.cpp ..\ccutil\errcode.cpp ..\ccutil\globaloc.cpp ..\ccutil\hashfn.cpp ..\ccutil\mainblk.cpp ..\ccutil\memblk.cpp ..\ccutil\memry.cpp ..\ccutil\mfcpch.cpp ..\ccutil\params.cpp ..\ccutil\serialis.cpp ..\ccutil\strngs.cpp ..\ccutil\tessdatamanager.cpp ..\ccutil\tprintf.cpp ..\ccutil\unichar.cpp ..\ccutil\unicharmap.cpp ..\ccutil\unicharset.cpp
+         unicharset.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(333): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(334): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(335): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(336): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+         unicharmap.cpp
+         unichar.cpp
+         tprintf.cpp
+         tessdatamanager.cpp
+         strngs.cpp
+         serialis.cpp
+         params.cpp
+         mfcpch.cpp
+         memry.cpp
+         memblk.cpp
+         mainblk.cpp
+         hashfn.cpp
+         globaloc.cpp
+         errcode.cpp
+         elst2.cpp
+         elst.cpp
+         clst.cpp
+         ccutil.cpp
+         boxread.cpp
+         Generating Code...
+         Compiling...
+         bits16.cpp
+         basedir.cpp
+         ambigs.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib" /NOLOGO Debug\ccutil\ambigs.obj
+         Debug\ccutil\basedir.obj
+         Debug\ccutil\bits16.obj
+         Debug\ccutil\boxread.obj
+         Debug\ccutil\ccutil.obj
+         Debug\ccutil\clst.obj
+         Debug\ccutil\elst.obj
+         Debug\ccutil\elst2.obj
+         Debug\ccutil\errcode.obj
+         Debug\ccutil\globaloc.obj
+         Debug\ccutil\hashfn.obj
+         Debug\ccutil\mainblk.obj
+         Debug\ccutil\memblk.obj
+         Debug\ccutil\memry.obj
+         Debug\ccutil\mfcpch.obj
+         Debug\ccutil\params.obj
+         Debug\ccutil\serialis.obj
+         Debug\ccutil\strngs.obj
+         Debug\ccutil\tessdatamanager.obj
+         Debug\ccutil\tprintf.obj
+         Debug\ccutil\unichar.obj
+         Debug\ccutil\unicharmap.obj
+         Debug\ccutil\unicharset.obj
+         ccutil.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ccutil\ccutil.unsuccessfulbuild".
+         Touching "Debug\ccutil\ccutil.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\ccutil.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:29.47

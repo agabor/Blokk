@@ -1,5 +1,29 @@
-﻿Build started 2012.07.05. 18:01:21.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\viewer.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\viewer\viewer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\viewer\\" /Fd"Debug\viewer\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\viewer\scrollview.cpp ..\viewer\svmnode.cpp ..\viewer\svpaint.cpp ..\viewer\svutil.cpp
+         svutil.cpp
+         svpaint.cpp
+         svmnode.cpp
+         scrollview.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\viewer\svutil.h(30) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\viewer.lib" /NOLOGO Debug\viewer\scrollview.obj
+         Debug\viewer\svmnode.obj
+         Debug\viewer\svpaint.obj
+         Debug\viewer\svutil.obj
+         viewer.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\viewer.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\viewer\viewer.unsuccessfulbuild".
+         Touching "Debug\viewer\viewer.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\viewer.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:05.29

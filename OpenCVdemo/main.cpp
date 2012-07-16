@@ -58,72 +58,52 @@ void findSquares( const Mat& image, vector<vector<Point> >& squares )
     pyrUp(pyr, timg, image.size());
     vector<vector<Point> > contours;
 
-    // find squares in every color plane of the image
-    for( int c = 0; c < 3; c++ )
+    cvtColor(timg, gray0, CV_RGB2GRAY);
+
+    // apply Canny. Take the upper threshold from slider
+    // and set the lower to 0 (which forces edges merging)
+    Canny(gray0, gray0, 0, thresh, 3);
+    // dilate canny output to remove potential
+    // holes between edge segments
+    dilate(gray0, gray0, Mat(), Point(-1,-1));
+    // apply threshold
+    gray = gray0 >= 100;
+    // find contours and store them all as a list
+    findContours(gray, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
+
+    vector<Point> approx;
+
+    // test each contour
+    for( size_t i = 0; i < contours.size(); i++ )
     {
-        int ch[] = {c, 0};
-        mixChannels(&timg, 1, &gray0, 1, ch, 1);
+        // approximate contour with accuracy proportional
+        // to the contour perimeter
+        approxPolyDP(Mat(contours[i]), approx, arcLength(Mat(contours[i]), true)*0.02, true);
 
-        // try several threshold levels
-        for( int l = 0; l < N; l++ )
+        // square contours should have 4 vertices after approximation
+        // relatively large area (to filter out noisy contours)
+        // and be convex.
+        // Note: absolute value of an area is used because
+        // area may be positive or negative - in accordance with the
+        // contour orientation
+        if( approx.size() == 4 &&
+            fabs(contourArea(Mat(approx))) > 1000 &&
+            isContourConvex(Mat(approx)) )
         {
-            // hack: use Canny instead of zero threshold level.
-            // Canny helps to catch squares with gradient shading
-            if( l == 0 )
+            double maxCosine = 0;
+
+            for( int j = 2; j < 5; j++ )
             {
-                // apply Canny. Take the upper threshold from slider
-                // and set the lower to 0 (which forces edges merging)
-                blur(gray0, gray, Size(10,10));
-                Canny(gray, gray, 0, thresh, 3);
-                // dilate canny output to remove potential
-                // holes between edge segments
-                dilate(gray, gray, Mat(), Point(-1,-1));
-            }
-            else
-            {
-                // apply threshold if l!=0:
-                //     tgray(x,y) = gray(x,y) < (l+1)*255/N ? 255 : 0
-                gray = gray0 >= (l+1)*255/N;
+                // find the maximum cosine of the angle between joint edges
+                double cosine = fabs(angle(approx[j%4], approx[j-2], approx[j-1]));
+                maxCosine = MAX(maxCosine, cosine);
             }
 
-            // find contours and store them all as a list
-            findContours(gray, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
-
-            vector<Point> approx;
-
-            // test each contour
-            for( size_t i = 0; i < contours.size(); i++ )
-            {
-                // approximate contour with accuracy proportional
-                // to the contour perimeter
-                approxPolyDP(Mat(contours[i]), approx, arcLength(Mat(contours[i]), true)*0.02, true);
-
-                // square contours should have 4 vertices after approximation
-                // relatively large area (to filter out noisy contours)
-                // and be convex.
-                // Note: absolute value of an area is used because
-                // area may be positive or negative - in accordance with the
-                // contour orientation
-                if( approx.size() == 4 &&
-                    fabs(contourArea(Mat(approx))) > 1000 &&
-                    isContourConvex(Mat(approx)) )
-                {
-                    double maxCosine = 0;
-
-                    for( int j = 2; j < 5; j++ )
-                    {
-                        // find the maximum cosine of the angle between joint edges
-                        double cosine = fabs(angle(approx[j%4], approx[j-2], approx[j-1]));
-                        maxCosine = MAX(maxCosine, cosine);
-                    }
-
-                    // if cosines of all angles are small
-                    // (all angles are ~90 degree) then write quandrange
-                    // vertices to resultant sequence
-                    //if( maxCosine < 0.3 )
-                        squares.push_back(approx);
-                }
-            }
+            // if cosines of all angles are small
+            // (all angles are ~90 degree) then write quandrange
+            // vertices to resultant sequence
+            if( maxCosine < 0.3 )
+                squares.push_back(approx);
         }
     }
 }
@@ -179,9 +159,53 @@ bool rectEQ(vector<Point> &a, vector<Point> &b)
     return true;
 }
 
+void makeRectListUniq(vector<vector<Point> > *squares)
+{
+    for(vector<vector<Point> >::iterator i = squares->begin(); i != squares->end(); ++i)
+        orderRect(*i);
+
+    vector<vector<Point> > unique_squares;
+
+    while(!squares->empty())
+    {
+        vector<Point> s = squares->back();
+        squares->pop_back();
+        bool put = true;
+        for (int i = 0; i < unique_squares.size(); ++i)
+            if (rectEQ(unique_squares[i], s))
+            {
+                if (contourArea(Mat(unique_squares[i])) < contourArea(Mat(s)))
+                {
+                    unique_squares.erase(unique_squares.begin()+i);
+                    unique_squares.push_back(s);
+                }
+                put = false;
+                break;
+            }
+        if (put)
+            unique_squares.push_back(s);
+    }
+    for(vector<vector<Point> >::iterator i = unique_squares.begin(); i != unique_squares.end(); ++i)
+        squares->push_back(*i);
+}
+
+Mat getSubImage(const vector<Point> *rect, const Mat *image, float mul)
+{
+    RotatedRect r = minAreaRect(Mat(*rect));
+    r.center.x *= mul;
+    r.center.y *= mul;
+    r.size.width *= mul;
+    r.size.height *= mul;
+    Mat M = getRotationMatrix2D(r.center, r.angle, 1.0);
+    Mat cropped;
+    warpAffine(*image, cropped, M, image->size(), INTER_CUBIC);
+    getRectSubPix(cropped, r.size, r.center, cropped);
+    return cropped;
+}
+
 int main(int /*argc*/, char** /*argv*/)
 {
-    static const char* names[] = { "E:\\blokk\\input\\Scan3.JPG", 0 };
+    static const char* names[] = { "D:\\blokk\\blokk\\input\\Scan3.jpg", 0 };
     help();
     namedWindow( wndname, 1 );
     vector<vector<Point> > squares;
@@ -195,42 +219,23 @@ int main(int /*argc*/, char** /*argv*/)
             continue;
         }
 
-        cv::Size s;
-        s.width = 300;
-        s.height = 400;
+        Mat image_small;
+        resize(image, image_small, Size(), 0.2, 0.2);
 
-        resize(image, image, s);
+        findSquares(image_small, squares);
 
-        findSquares(image, squares);
+        makeRectListUniq(&squares);
 
-        for(vector<vector<Point> >::iterator i = squares.begin(); i != squares.end(); ++i)
-            orderRect(*i);
+        drawSquares(image_small, squares);
 
-        vector<vector<Point> > unique_squares;
+        std::cout << squares.size() << std::endl;
 
-        while(!squares.empty())
+        for(int i = 0; i < squares.size(); ++i)
         {
-            vector<Point> s = squares.back();
-            squares.pop_back();
-            bool put = true;
-            for (int i = 0; i < unique_squares.size(); ++i)
-                if (rectEQ(unique_squares[i], s))
-                {
-                    if (contourArea(Mat(unique_squares[i])) < contourArea(Mat(s)))
-                    {
-                        unique_squares.erase(unique_squares.begin()+i);
-                        unique_squares.push_back(s);
-                    }
-                    put = false;
-                    break;
-                }
-            if (put)
-                unique_squares.push_back(s);
+            const char c[2] = {'0' + i, 0};
+            namedWindow( string("blokk") + string(c), 1 );
+            imshow(string("blokk") + string(c), getSubImage(&squares[i], &image, 5));
         }
-
-        drawSquares(image, unique_squares);
-
-        std::cout << unique_squares.size() << std::endl;
 
         int c = waitKey();
         if( (char)c == 27 )

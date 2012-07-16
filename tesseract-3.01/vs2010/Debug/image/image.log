@@ -1,5 +1,35 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\image.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\image\image.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\image\\" /Fd"Debug\image\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\image\image.cpp ..\image\imgs.cpp ..\image\imgtiff.cpp ..\image\svshowim.cpp
+         svshowim.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         imgtiff.cpp
+         imgs.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\image\imgs.cpp(156): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         image.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\image.lib" /NOLOGO Debug\image\image.obj
+         Debug\image\imgs.obj
+         Debug\image\imgtiff.obj
+         Debug\image\svshowim.obj
+         image.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\image.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\image\image.unsuccessfulbuild".
+         Touching "Debug\image\image.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\image.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:02.53

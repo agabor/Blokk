@@ -1,5 +1,204 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:04:47.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\wordrec.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\wordrec\wordrec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\wordrec\\" /Fd"Debug\wordrec\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\wordrec\associate.cpp ..\wordrec\bestfirst.cpp ..\wordrec\chop.cpp ..\wordrec\chopper.cpp ..\wordrec\closed.cpp ..\wordrec\drawfx.cpp ..\wordrec\findseam.cpp ..\wordrec\gradechop.cpp ..\wordrec\heuristic.cpp ..\wordrec\language_model.cpp ..\wordrec\makechop.cpp ..\wordrec\matchtab.cpp ..\wordrec\olutil.cpp ..\wordrec\outlines.cpp ..\wordrec\pieces.cpp ..\wordrec\plotedges.cpp ..\wordrec\plotseg.cpp ..\wordrec\render.cpp ..\wordrec\segsearch.cpp ..\wordrec\tally.cpp ..\wordrec\tface.cpp ..\wordrec\wordclass.cpp ..\wordrec\wordrec.cpp
+         wordrec.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         wordclass.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         tface.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\tface.cpp(58): warning C4244: '=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\tface.cpp(119): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\tface.cpp(171): warning C4244: 'initializing' : conversion from 'const double' to 'float', possible loss of data
+         tally.cpp
+         segsearch.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\segsearch.cpp(72): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\segsearch.cpp(72): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\segsearch.cpp(153): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\segsearch.cpp(164): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         render.cpp
+         plotseg.cpp
+         plotedges.cpp
+         pieces.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         outlines.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         olutil.cpp
+         matchtab.cpp
+         makechop.cpp
+         language_model.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(181): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(238): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(857): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(885): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(911): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1043): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1099): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1102): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1105): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1108): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1361): warning C4244: '=' : conversion from 'uinT64' to 'uinT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1363): warning C4244: '=' : conversion from 'uinT64' to 'uinT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.cpp(1839): warning C4244: '/=' : conversion from 'double' to 'float', possible loss of data
+         heuristic.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(116): warning C4244: 'initializing' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(152): warning C4800: 'uinT32' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(251): warning C4244: 'initializing' : conversion from 'int' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(252): warning C4244: 'initializing' : conversion from 'int' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(258): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(269): warning C4244: '+=' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(316): warning C4244: 'initializing' : conversion from 'double' to 'FLOAT32', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(322): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(324): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(326): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\heuristic.cpp(328): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+         gradechop.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(98): warning C4244: '=' : conversion from 'int' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(102): warning C4244: '*=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(103): warning C4244: '=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(104): warning C4244: 'return' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(132): warning C4244: '=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(134): warning C4244: 'return' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(150): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(155): warning C4244: '=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(157): warning C4244: 'return' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(178): warning C4244: '*=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(200): warning C4244: '=' : conversion from 'inT32' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(202): warning C4244: '*=' : conversion from 'double' to 'PRIORITY', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\gradechop.cpp(204): warning C4244: 'return' : conversion from 'double' to 'PRIORITY', possible loss of data
+         findseam.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\findseam.cpp(291): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\findseam.cpp(370): warning C4018: '<' : signed/unsigned mismatch
+         drawfx.cpp
+         closed.cpp
+         chopper.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\chopper.cpp(424): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         chop.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         bestfirst.cpp
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\bestfirst.cpp(97): warning C4244: '=' : conversion from 'double' to 'FLOAT32', possible loss of data
+         associate.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\wordrec.lib" /NOLOGO Debug\wordrec\associate.obj
+         Debug\wordrec\bestfirst.obj
+         Debug\wordrec\chop.obj
+         Debug\wordrec\chopper.obj
+         Debug\wordrec\closed.obj
+         Debug\wordrec\drawfx.obj
+         Debug\wordrec\findseam.obj
+         Debug\wordrec\gradechop.obj
+         Debug\wordrec\heuristic.obj
+         Debug\wordrec\language_model.obj
+         Debug\wordrec\makechop.obj
+         Debug\wordrec\matchtab.obj
+         Debug\wordrec\olutil.obj
+         Debug\wordrec\outlines.obj
+         Debug\wordrec\pieces.obj
+         Debug\wordrec\plotedges.obj
+         Debug\wordrec\plotseg.obj
+         Debug\wordrec\render.obj
+         Debug\wordrec\segsearch.obj
+         Debug\wordrec\tally.obj
+         Debug\wordrec\tface.obj
+         Debug\wordrec\wordclass.obj
+         Debug\wordrec\wordrec.obj
+         wordrec.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\wordrec.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\wordrec\wordrec.unsuccessfulbuild".
+         Touching "Debug\wordrec\wordrec.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\wordrec.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:25.93

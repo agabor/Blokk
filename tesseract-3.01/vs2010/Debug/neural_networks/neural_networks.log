@@ -1,5 +1,47 @@
-﻿Build started 2012.07.05. 18:01:21.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\neural_networks.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\neural_networks\neural_networks.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\neural_networks\\" /Fd"Debug\neural_networks\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\neural_networks\runtime\input_file_buffer.cpp ..\neural_networks\runtime\neural_net.cpp ..\neural_networks\runtime\neuron.cpp ..\neural_networks\runtime\sigmoid_table.cpp
+         sigmoid_table.cpp
+         neuron.cpp
+         neural_net.cpp
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.h(123): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+                 d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(220) : see reference to function template instantiation 'bool tesseract::NeuralNet::ReadBinary<tesseract::InputFileBuffer>(ReadBuffType *)' being compiled
+                 with
+                 [
+                     ReadBuffType=tesseract::InputFileBuffer
+                 ]
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(90): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+                 d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(291) : see reference to function template instantiation 'bool tesseract::NeuralNet::FeedForward<double>(const double *,double *)' being compiled
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(96): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(292) : see reference to function template instantiation 'bool tesseract::NeuralNet::FastFeedForward<float>(const float *,float *)' being compiled
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(58): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+                 d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(294) : see reference to function template instantiation 'bool tesseract::NeuralNet::FastFeedForward<double>(const double *,double *)' being compiled
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(249): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(300) : see reference to function template instantiation 'bool tesseract::NeuralNet::FastGetNetOutput<float>(const float *,int,float *)' being compiled
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(238): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+                 d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(302) : see reference to function template instantiation 'bool tesseract::NeuralNet::FastGetNetOutput<double>(const double *,int,double *)' being compiled
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(249): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\neural_networks\runtime\neural_net.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         input_file_buffer.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\neural_networks.lib" /NOLOGO Debug\neural_networks\input_file_buffer.obj
+         Debug\neural_networks\neural_net.obj
+         Debug\neural_networks\neuron.obj
+         Debug\neural_networks\sigmoid_table.obj
+         neural_networks.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\neural_networks.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\neural_networks\neural_networks.unsuccessfulbuild".
+         Touching "Debug\neural_networks\neural_networks.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\neural_networks.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:03.34

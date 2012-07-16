@@ -1,5 +1,31 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:05:13.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\combine_tessdata.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\combine_tessdata\combine_tessdata.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ccutil /I../ccstruct /I../classify /I../cutil /I../training /I../viewer /I../dict /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D TRAINING /D WIN32 /D _WINDOWS /D __NT__ /D __MSW32__ /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\combine_tessdata\\" /Fd"Debug\combine_tessdata\vc100.pdb" /FR"Debug\combine_tessdata\\" /Gd /TP /analyze- /errorReport:prompt ..\training\combine_tessdata.cpp
+         combine_tessdata.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\combine_tessdata\combine_tessdata-debug.exe.embed.manifest.res" Debug\combine_tessdata\combine_tessdata-debug_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\vs2008\lib ws2_32.lib user32.lib "liblept-static-mtdll-debug.lib" "libpng-static-mtdll.lib" "libjpeg-static-mtdll.lib" "libtiff-static-mtdll.lib" "giflib-static-mtdll.lib" "zlib-static-mtdll.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\combine_tessdata\combine_tessdata-debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.lib" /MACHINE:X86 "Debug\combine_tessdata\combine_tessdata-debug.exe.embed.manifest.res"
+         Debug\combine_tessdata\combine_tessdata.obj
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\combine_tessdata\combine_tessdata-debug.exe.embed.manifest" /manifest "Debug\combine_tessdata\combine_tessdata-debug.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\combine_tessdata\combine_tessdata-debug.exe.embed.manifest.res" Debug\combine_tessdata\combine_tessdata-debug_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\vs2008\lib ws2_32.lib user32.lib "liblept-static-mtdll-debug.lib" "libpng-static-mtdll.lib" "libjpeg-static-mtdll.lib" "libtiff-static-mtdll.lib" "giflib-static-mtdll.lib" "zlib-static-mtdll.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\combine_tessdata\combine_tessdata-debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.lib" /MACHINE:X86 "Debug\combine_tessdata\combine_tessdata-debug.exe.embed.manifest.res"
+         Debug\combine_tessdata\combine_tessdata.obj
+         "D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccutil.lib"
+         combine_tessdata.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\combine_tessdata-debug.bsc" Debug\combine_tessdata\combine_tessdata.sbr
+       FinalizeBuildStatus:
+         Deleting file "Debug\combine_tessdata\combine_tessdata.unsuccessfulbuild".
+         Touching "Debug\combine_tessdata\combine_tessdata.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\combine_tessdata.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:04.63

@@ -1,5 +1,481 @@
-﻿Build started 2012.07.05. 18:01:20.
+﻿Build started 2012.07.05. 18:04:43.
+     1>Project "D:\blokk\blokk\tesseract-3.01\vs2010\ccmain.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ccmain\ccmain.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ccutil /I..\cutil /I..\viewer /I..\image /I..\ccstruct /I..\dict /I..\classify /I..\wordrec /I..\textord /Iinclude /Iinclude\leptonica /I..\cube /I..\neural_networks\runtime /Iport /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D __MSW32__ /D _LIB /D USE_STD_NAMESPACE /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\ccmain\\" /Fd"Debug\ccmain\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ccmain\adaptions.cpp ..\ccmain\applybox.cpp ..\ccmain\control.cpp ..\ccmain\cube_control.cpp ..\ccmain\cube_reco_context.cpp ..\ccmain\docqual.cpp ..\ccmain\fixspace.cpp ..\ccmain\fixxht.cpp ..\ccmain\imgscale.cpp ..\ccmain\osdetect.cpp ..\ccmain\output.cpp ..\ccmain\pagesegmain.cpp ..\ccmain\pagewalk.cpp ..\ccmain\paramsd.cpp ..\ccmain\pgedit.cpp ..\ccmain\recogtraining.cpp ..\ccmain\reject.cpp ..\ccmain\scaleimg.cpp ..\ccmain\tessbox.cpp ..\ccmain\tessedit.cpp ..\ccmain\tesseractclass.cpp ..\ccmain\tesseract_cube_combiner.cpp ..\ccmain\tessvars.cpp ..\ccmain\tfacepp.cpp ..\ccmain\thresholder.cpp ..\ccmain\werdit.cpp ..\ccutil\ambigs.cpp ..\ccutil\basedir.cpp ..\ccutil\bits16.cpp ..\ccutil\boxread.cpp ..\ccutil\ccutil.cpp ..\ccutil\clst.cpp ..\ccutil\elst.cpp ..\ccutil\elst2.cpp ..\ccutil\errcode.cpp ..\ccutil\globaloc.cpp ..\ccutil\hashfn.cpp ..\ccutil\mainblk.cpp ..\ccutil\memblk.cpp ..\ccutil\memry.cpp ..\ccutil\mfcpch.cpp ..\ccutil\params.cpp ..\ccutil\serialis.cpp ..\ccutil\strngs.cpp ..\ccutil\tessdatamanager.cpp ..\ccutil\tprintf.cpp ..\ccutil\unichar.cpp ..\ccutil\unicharmap.cpp ..\ccutil\unicharset.cpp port\gettimeofday.cpp
+         gettimeofday.cpp
+         unicharset.cpp
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(333): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(334): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(335): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\unicharset.cpp(336): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+         unicharmap.cpp
+         unichar.cpp
+         tprintf.cpp
+         tessdatamanager.cpp
+         strngs.cpp
+         serialis.cpp
+         params.cpp
+         mfcpch.cpp
+         memry.cpp
+         memblk.cpp
+         mainblk.cpp
+         hashfn.cpp
+         globaloc.cpp
+         errcode.cpp
+         elst2.cpp
+         elst.cpp
+         clst.cpp
+         ccutil.cpp
+         Generating Code...
+         Compiling...
+         boxread.cpp
+         bits16.cpp
+         basedir.cpp
+         ambigs.cpp
+         werdit.cpp
+         thresholder.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+         tfacepp.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tfacepp.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+         tessvars.cpp
+         tesseract_cube_combiner.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseract_cube_combiner.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseract_cube_combiner.cpp(306): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         tesseractclass.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(38): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(41): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(43): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(45): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(48): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(55): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(61): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(63): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(65): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(67): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(71): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(75): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(77): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(80): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(82): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(83): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(85): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(89): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(93): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(96): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(98): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(100): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(102): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(104): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(106): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(108): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(110): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(112): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(114): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(116): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(117): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(119): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(121): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(123): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(125): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(127): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(129): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(131): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(133): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(135): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(137): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(139): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(141): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(143): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(145): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(147): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(150): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(151): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(152): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(153): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(154): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(156): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(158): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(160): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(162): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(164): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(166): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(168): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(170): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(173): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(176): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(179): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(181): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(183): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(185): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(187): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(190): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(192): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(194): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(196): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(198): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(200): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(202): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(204): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(206): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(208): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(209): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(211): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(213): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(215): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(217): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(219): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(221): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(223): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(225): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(227): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(229): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(231): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(233): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(235): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(237): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(239): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(241): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(243): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(245): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(247): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(250): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(253): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(255): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(256): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(258): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(260): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(262): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(264): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(266): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(268): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(271): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(273): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(275): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(277): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(279): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(281): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(283): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(284): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(286): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(288): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(290): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(292): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(294): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(296): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(298): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(300): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(302): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(304): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(305): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(307): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(309): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(311): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(313): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(315): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(317): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(319): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(321): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(323): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(325): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(327): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(329): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(331): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(333): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(335): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(337): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(339): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(341): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(343): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(345): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(347): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(348): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(349): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(351): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(353): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(355): warning C4355: 'this' : used in base member initializer list
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tesseractclass.cpp(360): warning C4355: 'this' : used in base member initializer list
+         tessedit.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\tessedit.cpp(189): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+         tessbox.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+         scaleimg.cpp
+         reject.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+         recogtraining.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         pgedit.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+         paramsd.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         pagewalk.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         pagesegmain.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\pagesegmain.cpp(337): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(299) : see declaration of 'unlink'
+         output.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\output.cpp(236): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+         Compiling...
+         osdetect.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(41): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(42): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(44): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(45): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(215): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\osdetect.cpp(343): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         imgscale.cpp
+         fixxht.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\fixxht.cpp(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         fixspace.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\fixspace.cpp(554): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\fixspace.cpp(771): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\fixspace.cpp(772): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\fixspace.cpp(916): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         docqual.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+         cube_reco_context.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\cube_reco_context.cpp(140): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+         cube_control.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\cube_control.cpp(31): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\cube_control.cpp(311): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\cube_control.cpp(311): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\cube_control.cpp(347): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         control.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(457): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(469): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(472): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(474): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(476): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(478): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\control.cpp(489): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\control.cpp(728): warning C4800: 'BOOL8' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\control.cpp(1106): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\control.cpp(1106): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\control.cpp(1268): warning C4244: 'argument' : conversion from 'inT16' to 'char', possible loss of data
+         applybox.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\blokk\blokk\tesseract-3.01\ccmain\applybox.cpp(526): warning C4018: '<' : signed/unsigned mismatch
+         adaptions.cpp
+     1>d:\blokk\blokk\tesseract-3.01\vs2010\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 d:\blokk\blokk\tesseract-3.01\ccutil\platform.h(33) : see previous definition of 'snprintf'
+     1>d:\blokk\blokk\tesseract-3.01\wordrec\language_model.h(428): warning C4800: 'const CHAR_FRAGMENT *' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccmain.lib" /NOLOGO Debug\ccmain\adaptions.obj
+         Debug\ccmain\applybox.obj
+         Debug\ccmain\control.obj
+         Debug\ccmain\cube_control.obj
+         Debug\ccmain\cube_reco_context.obj
+         Debug\ccmain\docqual.obj
+         Debug\ccmain\fixspace.obj
+         Debug\ccmain\fixxht.obj
+         Debug\ccmain\imgscale.obj
+         Debug\ccmain\osdetect.obj
+         Debug\ccmain\output.obj
+         Debug\ccmain\pagesegmain.obj
+         Debug\ccmain\pagewalk.obj
+         Debug\ccmain\paramsd.obj
+         Debug\ccmain\pgedit.obj
+         Debug\ccmain\recogtraining.obj
+         Debug\ccmain\reject.obj
+         Debug\ccmain\scaleimg.obj
+         Debug\ccmain\tessbox.obj
+         Debug\ccmain\tessedit.obj
+         Debug\ccmain\tesseractclass.obj
+         Debug\ccmain\tesseract_cube_combiner.obj
+         Debug\ccmain\tessvars.obj
+         Debug\ccmain\tfacepp.obj
+         Debug\ccmain\thresholder.obj
+         Debug\ccmain\werdit.obj
+         Debug\ccmain\ambigs.obj
+         Debug\ccmain\basedir.obj
+         Debug\ccmain\bits16.obj
+         Debug\ccmain\boxread.obj
+         Debug\ccmain\ccutil.obj
+         Debug\ccmain\clst.obj
+         Debug\ccmain\elst.obj
+         Debug\ccmain\elst2.obj
+         Debug\ccmain\errcode.obj
+         Debug\ccmain\globaloc.obj
+         Debug\ccmain\hashfn.obj
+         Debug\ccmain\mainblk.obj
+         Debug\ccmain\memblk.obj
+         Debug\ccmain\memry.obj
+         Debug\ccmain\mfcpch.obj
+         Debug\ccmain\params.obj
+         Debug\ccmain\serialis.obj
+         Debug\ccmain\strngs.obj
+         Debug\ccmain\tessdatamanager.obj
+         Debug\ccmain\tprintf.obj
+         Debug\ccmain\unichar.obj
+         Debug\ccmain\unicharmap.obj
+         Debug\ccmain\unicharset.obj
+         Debug\ccmain\gettimeofday.obj
+         ccmain.vcxproj -> D:\blokk\blokk\tesseract-3.01\vs2010\Debug\ccmain.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ccmain\ccmain.unsuccessfulbuild".
+         Touching "Debug\ccmain\ccmain.lastbuildstate".
+     1>Done Building Project "D:\blokk\blokk\tesseract-3.01\vs2010\ccmain.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.01
+Time Elapsed 00:00:41.52
